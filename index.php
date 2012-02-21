@@ -1,11 +1,5 @@
-<html>
-<head>
-	<title>111</title>
-</head>
-<body>
-
-hello, world!
-
-
-</body>
-</html>
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: /app/");
+exit();
+?>
