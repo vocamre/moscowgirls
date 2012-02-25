@@ -1,0 +1,318 @@
+2012/02/25 13:36:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in Z:\home\mg\www\app\protected\controllers\GirlsController.php:182
+Stack trace:
+#0 Z:\home\mg\www\app\protected\controllers\GirlsController.php(54): GirlsController->loadModel('')
+#1 [internal function]: GirlsController->actionView('')
+#2 Z:\home\mg\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(GirlsController), Array)
+#3 Z:\home\mg\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(GirlsController), Object(ReflectionMethod), Array)
+#4 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#11 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('view')
+#13 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls/view')
+#14 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/app/index.php?r=girls/view&id=
+HTTP_REFERER=http://mg/app/index.php?r=girls/create
+---
+2012/02/25 13:37:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in Z:\home\mg\www\app\protected\controllers\GirlsController.php:182
+Stack trace:
+#0 Z:\home\mg\www\app\protected\controllers\GirlsController.php(54): GirlsController->loadModel('')
+#1 [internal function]: GirlsController->actionView('')
+#2 Z:\home\mg\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(GirlsController), Array)
+#3 Z:\home\mg\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(GirlsController), Object(ReflectionMethod), Array)
+#4 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#11 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('view')
+#13 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls/view')
+#14 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/app/index.php?r=girls/view&id=
+HTTP_REFERER=http://mg/app/index.php?r=girls/create
+---
+2012/02/25 18:11:24 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:11:24 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:11:24 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:11:24 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:39 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:39 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:39 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:39 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:48 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:48 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:48 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:48 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:52 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:52 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:52 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:12:52 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:13:16 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:13:16 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:13:16 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:13:16 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:13:21 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:13:21 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:13:21 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:13:21 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:14:17 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:14:17 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:14:17 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:14:17 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:14:23 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:14:23 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:14:23 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:14:23 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:15:21 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:15:21 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:15:21 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:15:21 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:16:50 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:16:50 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:16:50 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:16:50 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:16:57 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:16:57 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:16:57 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:16:57 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:05 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:05 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:05 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:05 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:05 [error] [php] Missing argument 2 for CUploadedFile::getInstance(), called in Z:\home\mg\www\app\protected\controllers\GirlsController.php on line 75 and defined (Z:\home\mg\www\framework\web\CUploadedFile.php:58)
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): GirlsController->runAction()
+#2 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 Z:\home\mg\www\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#4 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): GirlsController->filterAccessControl()
+#5 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#7 Z:\home\mg\www\framework\web\CController.php(266): GirlsController->runActionWithFilters()
+#8 Z:\home\mg\www\framework\web\CWebApplication.php(276): GirlsController->run()
+#9 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=girls/create
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (75)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:45 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:45 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:45 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:45 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:57 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:57 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:57 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:20:57 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:22:10 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:22:10 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:22:10 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:22:10 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:22:10 [error] [exception.CException] exception 'CException' with message 'Property "GirlsController._error" is not defined.' in Z:\home\mg\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CUploadedFile.php(250): CComponent->__get('_error')
+#1 Z:\home\mg\www\app\protected\controllers\GirlsController.php(83): CUploadedFile->getError()
+#2 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): GirlsController->actionCreate()
+#3 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#10 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('create')
+#12 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls/create')
+#13 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/app/index.php?r=girls/create
+HTTP_REFERER=http://mg/app/index.php?r=girls/create
+---
+2012/02/25 18:25:05 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:25:05 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:25:05 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:25:05 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:29:28 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:29:28 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:29:28 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:29:28 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/02/25 18:29:28 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.enctype" is not defined.' in Z:\home\mg\www\framework\base\CComponent.php:174
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWidgetFactory.php(162): CComponent->__set('enctype', 'multipart/form-...')
+#1 Z:\home\mg\www\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(GirlsController), 'CActiveForm', Array)
+#2 Z:\home\mg\www\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 Z:\home\mg\www\app\protected\views\girls\_form.php(7): CBaseController->beginWidget('CActiveForm', Array)
+#4 Z:\home\mg\www\framework\web\CBaseController.php(127): require('Z:\home\mg\www\...')
+#5 Z:\home\mg\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\mg\www\...', Array, true)
+#6 Z:\home\mg\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\mg\www\...', Array, true)
+#7 Z:\home\mg\www\app\protected\views\girls\create.php(15): CController->renderPartial('_form', Array)
+#8 Z:\home\mg\www\framework\web\CBaseController.php(127): require('Z:\home\mg\www\...')
+#9 Z:\home\mg\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\mg\www\...', Array, true)
+#10 Z:\home\mg\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\mg\www\...', Array, true)
+#11 Z:\home\mg\www\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#12 Z:\home\mg\www\app\protected\controllers\GirlsController.php(103): CController->render('create', Array)
+#13 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): GirlsController->actionCreate()
+#14 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#21 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('create')
+#23 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls/create')
+#24 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/app/index.php?r=girls/create
+HTTP_REFERER=http://mg/app/index.php?r=girls/create
+---

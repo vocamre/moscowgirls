@@ -32,7 +32,7 @@ class GirlsController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('@'),
+				'users'=>array('*'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
@@ -69,8 +69,33 @@ class GirlsController extends Controller
 		if(isset($_POST['Girls']))
 		{
 			$model->attributes=$_POST['Girls'];
+			
+			
+			if(isset($_POST['Girls']['portrait'])){
+					$model->image=CUploadedFile::getInstance($model,'portrait');
+					print_r($_FILES);
+					if($model->image){echo $model->portrait;
+						$pathPart2='/images/portraits/'.$model->login.time().'.jpg';
+						$path=Yii::getpathOfAlias('webroot').$pathPart2;
+						$model->portrait=Yii::app()->request->baseUrl.$pathPart2;
+						echo 'asdfasdfasdf';
+					}
+					
+			}
+						
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+			
+				if($model->image){
+					$model->image->saveAs($path);
+					 Yii::import('application.extensions.image.Image');
+					 Yii::import('application.extensions.helpers.CArray');
+					 
+					$Image = Image::factory($path);
+					$Image -> resize(150, 150);
+					$Image -> save($path);	
+				
+					$this->redirect(array('view','id'=>$model->id));
+				}
 		}
 
 		$this->render('create',array(

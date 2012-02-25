@@ -29,6 +29,7 @@
  */
 class Girls extends CActiveRecord
 {
+	public $image;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -55,7 +56,8 @@ class Girls extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, day, year, month, phone, email, height, weight, param1, param2, param3, marital, education, experience, qualities, hobby, purpose, demo, portrait, fulllengthportrait', 'required'),
+			/*array('name, day, year, month, phone, email, height, weight, param1, param2, param3, marital, education, experience, qualities, hobby, purpose, demo, portrait, fulllengthportrait', 'required'),*/
+			array('portrait', 'required'),
 			array('day, year, month, rating', 'numerical', 'integerOnly'=>true),
 			array('height, weight, param1, param2, param3', 'numerical'),
 			array('name, demo, portrait, fulllengthportrait', 'length', 'max'=>50),

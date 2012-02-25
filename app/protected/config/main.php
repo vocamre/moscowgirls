@@ -16,6 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.helpers.*',
 	),
 
 	'modules'=>array(
@@ -80,6 +81,19 @@ return array(
 				*/
 			),
 		),
+		
+		'image'=>array(
+          'class'=>'application.extensions.image.CImageComponent',
+            // GD or ImageMagick
+            'driver'=>'GD',
+            // ImageMagick setup path
+            'params'=>array('directory'=>'/opt/local/bin'),
+        ),
+		'email'=>array(
+			'class'=>'application.extensions.email.Email',
+			'delivery'=>'php', //Will use the php mailing function.  //May also be set to 'debug' to instead dump the contents of the email into the view
+		),
+		
 	),
 
 	// application-level parameters that can be accessed

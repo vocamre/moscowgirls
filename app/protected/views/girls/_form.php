@@ -3,6 +3,7 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'girls-form',
 	'enableAjaxValidation'=>false,
+	'enctype'=>'multipart/form-data',
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
@@ -113,27 +114,23 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'demo'); ?>
-		<?php echo $form->textField($model,'demo',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->fileField($model,'demo',array('size'=>50,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'demo'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'portrait'); ?>
-		<?php echo $form->textField($model,'portrait',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->fileField($model,'portrait',array('size'=>50,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'portrait'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'fulllengthportrait'); ?>
-		<?php echo $form->textField($model,'fulllengthportrait',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->fileField($model,'fulllengthportrait',array('size'=>50,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'fulllengthportrait'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'rating'); ?>
-		<?php echo $form->textField($model,'rating'); ?>
-		<?php echo $form->error($model,'rating'); ?>
-	</div>
+	
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
