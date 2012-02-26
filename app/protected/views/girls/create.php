@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $this->breadcrumbs=array(
 	'Girls'=>array('index'),
 	'Create',
@@ -10,6 +10,8 @@ $this->menu=array(
 );
 ?>
 
-<h1>Create Girls</h1>
-
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<div class="cont-head anketa">АНКЕТА УЧАСТНИЦЫ</div>
+		<div class="cont-body">
+				<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+		</div>
+		<div class="cont-foot"></div>
