@@ -1,5 +1,4 @@
-﻿<div class="form">
-
+<div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'girls-form',
 	'enableAjaxValidation'=>false,
@@ -26,7 +25,7 @@
 					<td>
 						<?php echo $form->textField($model,'day', array('style'=>'width:37px;', 'value'=>'01')); ?>
 						<?php echo $form->error($model,'day'); ?>
-						<?php echo $form->textField($model,'month', array('style'=>'width:124px;', 'value'=>'январь')); ?>
+						<?php echo $form->textField($model,'month', array('style'=>'width:124px; text-align:center', 'value'=>'январь')); ?>
 						<?php echo $form->error($model,'month'); ?>
 						<?php echo $form->textField($model,'year', array('style'=>'width:37px;', 'value'=>'2012')); ?>
 						<?php echo $form->error($model,'year'); ?>

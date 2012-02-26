@@ -29,7 +29,7 @@ img{
 
 .content {width:431px; margin:0 auto;margin-top:6px; }
 .content .cont-head {width:431px; height:38px; background:url('../images/head.png') no-repeat; text-align:center; font-size:24px; color:#940902; padding-top:12px;}
-.content .cont-body {padding:20px 21px 0 21px; width:389px; background:url('../images/bg_cont.png') repeat-y;}
+.content .cont-body {padding:20px 0px 0 21px; width:409px; background:url('../images/bg_cont.png') repeat-y;}
 .content .cont-foot {width:431px; height:18px; background:url('../images/foot.png') no-repeat;}
 .content .star {width:383px; height:20px; background:url('../images/star.png') no-repeat top left; font-size:12px; color:#000; text-align:center; font-weight:bold; padding-top:6px; margin-bottom:20px;}
 .prefooter .yel{color:#f1be00; font-size:15px;}
@@ -76,3 +76,5 @@ img{
 .tab tr td.cv {vertical-align:top;}
 .send-b {width:141px; height:39px; background:url('../images/send_b.png') no-repeat; border:none;}
 .send-f {border-top:1px solid #fbca32; padding:18px 0 0 0;}
+
+.scroll-pane {overflow:auto; height:350px;}
