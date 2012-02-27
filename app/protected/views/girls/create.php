@@ -10,6 +10,8 @@ $this->menu=array(
 );
 ?>
 
-<h1>Create Girls</h1>
-
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<div class="cont-head anketa">АНКЕТА УЧАСТНИЦЫ</div>
+	<div class="scroll-pane" style="padding-top:0px;">
+		<div class="cont-body" ><?php echo $this->renderPartial('_form', array('model'=>$model)); ?></div>
+	</div>
+	<div class="cont-foot"></div>
