@@ -29,7 +29,7 @@
  */
 class Girls extends CActiveRecord
 {
-	public $image;
+	public $image, $image2, $mp3;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -62,7 +62,7 @@ class Girls extends CActiveRecord
 			array('height, weight, param1, param2, param3', 'numerical'),
 			array('name, demo, portrait, fulllengthportrait', 'length', 'max'=>50),
 			array('portrait, fulllengthportrait', 'file', 'types'=>'jpg, gif, png', 'on'=>'create, update'),
-			
+			array('demo', 'file', 'types'=>'mp3', 'on'=>'create, update'),
 			array('phone', 'length', 'max'=>12),
 			array('email, education', 'length', 'max'=>30),
 			array('marital', 'length', 'max'=>10),
