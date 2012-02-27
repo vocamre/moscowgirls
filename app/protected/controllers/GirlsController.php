@@ -73,12 +73,11 @@ class GirlsController extends Controller
 			
 			if(isset($_POST['Girls']['portrait'])){
 					$model->image=CUploadedFile::getInstance($model,'portrait');
-					print_r($_FILES);
-					if($model->image){echo $model->portrait;
-						$pathPart2='/images/portraits/'.$model->login.time().'.jpg';
+
+					if($model->image){//echo $model->portrait;
+						$pathPart2='/images/portraits/'.$model->id.time().$model->portrait;
 						$path=Yii::getpathOfAlias('webroot').$pathPart2;
 						$model->portrait=Yii::app()->request->baseUrl.$pathPart2;
-						echo 'asdfasdfasdf';
 					}
 					
 			}

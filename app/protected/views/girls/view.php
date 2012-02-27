@@ -41,4 +41,9 @@ $this->menu=array(
 		'fulllengthportrait',
 		'rating',
 	),
-)); ?>
+)); 
+
+echo '<img src="'.$model->portrait.'" />';
+?>
+
+

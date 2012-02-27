@@ -3,7 +3,7 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'girls-form',
 	'enableAjaxValidation'=>false,
-	///'enctype'=>'multipart/form-data',
+	'htmlOptions'=>array('enctype'=>'multipart/form-data'),
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
