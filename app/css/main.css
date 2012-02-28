@@ -78,3 +78,18 @@ img{
 .send-f {border-top:1px solid #fbca32; padding:18px 0 0 0;}
 
 .scroll-pane {overflow:auto; height:350px;}
+
+/*=========================================*/
+.joor-item {padding:0 0 19px 0;}
+.joor-item .joor-item-img {float:left; border:5px solid #dadada; margin-right:16px;}
+.joor-item .joor-item-text {float:left;}
+.joor-item .joor-item-name {background:url('../images/bg_joor.png') no-repeat top left; padding:5px 0 0 23px; width:262px; height:21px; font-weight:bold;}
+.joor-item .joor-item-desc {margin:18px 0 0 24px;}
+
+.kast-top {background:url('../images/bg_kast.png') no-repeat top left; width:381px; height:21px; padding-top:5px; text-align:center; font-weight:bold; margin-bottom:0px;}
+.ch {width:381px; height:21px; background:url('../images/bg_ch.png') no-repeat top left; padding:5px 0 0 22px; margin:14px 0;}
+.ch-bt {position:absolute; margin:2px 0 0 -13px;}
+.btn-ank {width:141px; height:40px; display:inline-block; background:url('../images/btn_ank.png') no-repeat top left; cursor:pointer; border:none;}
+.btn-ank:active {background-position:0px -40px;}
+.btn-ank:hover {background-position:0px -80px;}
+/*=========================================*/

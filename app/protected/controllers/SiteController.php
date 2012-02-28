@@ -65,6 +65,27 @@ class SiteController extends Controller
 		}
 		$this->render('contact',array('model'=>$model));
 	}
+	
+	public function actionCasting()
+	{
+		$model=new PreAnketa;
+		if(isset($_POST['PreAnketa']))
+		{
+		
+			$model->attributes=$_POST['PreAnketa'];
+			$model->fl=$_POST['PreAnketa[fl]'];
+			
+
+			
+		 if($model->validate())
+			{
+				$this->redirect(Yii::app()->request->baseUrl.'/index.php?r=girls/create');
+			}
+			else $model->er='<br>Вы ввели неверный код. Пожалуйста введите заново<br>';
+		}	
+		
+		$this->render('casting',array('model'=>$model));
+	}
 
 	/**
 	 * Displays the login page

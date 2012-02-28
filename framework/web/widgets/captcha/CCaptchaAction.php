@@ -192,8 +192,8 @@ class CCaptchaAction extends CAction
 			$this->maxLength = $this->minLength;
 		$length = mt_rand($this->minLength,$this->maxLength);
 
-		$letters = 'bcdfghjklmnpqrstvwxyz';
-		$vowels = 'aeiou';
+		$letters = '1234567890';
+		$vowels = '12345';
 		$code = '';
 		for($i = 0; $i < $length; ++$i)
 		{

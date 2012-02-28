@@ -2,7 +2,7 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'girls-form',
 	'enableAjaxValidation'=>false,
-	///'enctype'=>'multipart/form-data',
+	'htmlOptions'=>array('enctype'=>'multipart/form-data'),
 )); ?>
 
 	<?php echo $form->errorSummary($model); ?>
@@ -79,20 +79,13 @@
 				<tr>
 					<td width="128">Семейное положение</td>
 					<td>
-						<select>
-						  <option>не замужем</option>
-						  <option>замужем</option>
-						</select>
+					<?php echo $form->dropDownList($model,'marital',array('не замужем'=>'не замужем', 'замужем'=>'замужем'), array('size'=>1,'maxlength'=>20)); ?>
 					</td>
 				</tr>
 				<tr>
 					<td>Образование</td>
 					<td>
-						<select>
-						  <option>среднее</option>
-						  <option>высшее</option>
-						  <option>нет</option>
-						</select>
+						<?php echo $form->dropDownList($model,'education',array('высшее'=>'высшее', 'среднее'=>'среднее', 'нет'=>'нет'), array('size'=>1,'maxlength'=>20)); ?>
 					</td>
 				</tr>
 				<tr>
@@ -125,17 +118,7 @@
 				</tr>
 			</table>
 
-	<div class="row" style="display:none;">
-		<?php echo $form->labelEx($model,'marital'); ?>
-		<?php echo $form->textField($model,'marital',array('size'=>10,'maxlength'=>10)); ?>
-		<?php echo $form->error($model,'marital'); ?>
-	</div>
-
-	<div class="row" style="display:none;">
-		<?php echo $form->labelEx($model,'education'); ?>
-		<?php echo $form->textField($model,'education',array('size'=>30,'maxlength'=>30)); ?>
-		<?php echo $form->error($model,'education'); ?>
-	</div>
+	
 
 			<div class="txt">Творческие работы</div>
 			<table class="tab" cellspacing="0" cellpadding="0" border="0">

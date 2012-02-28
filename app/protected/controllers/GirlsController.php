@@ -73,29 +73,66 @@ class GirlsController extends Controller
 			
 			if(isset($_POST['Girls']['portrait'])){
 					$model->image=CUploadedFile::getInstance($model,'portrait');
-					print_r($_FILES);
-					if($model->image){echo $model->portrait;
-						$pathPart2='/images/portraits/'.$model->login.time().'.jpg';
+
+					if($model->image){
+						$pathPart2='/images/portraits/'.$model->id.'_'.time().$model->portrait;
 						$path=Yii::getpathOfAlias('webroot').$pathPart2;
 						$model->portrait=Yii::app()->request->baseUrl.$pathPart2;
-						echo 'asdfasdfasdf';
+					}
+					
+			}
+			
+			if(isset($_POST['Girls']['fulllengthportrait'])){
+					$model->image2=CUploadedFile::getInstance($model,'fulllengthportrait');
+
+					if($model->image2){
+						$path2Part2='/images/portraits/'.$model->id.'_'.time().$model->fulllengthportrait;
+						$path2=Yii::getpathOfAlias('webroot').$path2Part2;
+						$model->fulllengthportrait=Yii::app()->request->baseUrl.$path2Part2;
+					}
+					
+			}
+			
+			if(isset($_POST['Girls']['demo'])){
+					$model->mp3=CUploadedFile::getInstance($model,'demo');
+
+					if($model->mp3){
+						$path3Part2='/mp3/demos/'.$model->id.'_'.time().$model->demo;
+						$path3=Yii::getpathOfAlias('webroot').$path3Part2;
+						$model->demo=Yii::app()->request->baseUrl.$path3Part2;
 					}
 					
 			}
 						
 			if($model->save())
-			
+			{
+			Yii::import('application.extensions.image.Image');
+			Yii::import('application.extensions.helpers.CArray');
+					 
 				if($model->image){
-					$model->image->saveAs($path);
-					 Yii::import('application.extensions.image.Image');
-					 Yii::import('application.extensions.helpers.CArray');
+					$model->image->saveAs($path); 
 					 
 					$Image = Image::factory($path);
-					$Image -> resize(150, 150);
+					$Image -> resize(600, 600);
 					$Image -> save($path);	
-				
-					$this->redirect(array('view','id'=>$model->id));
 				}
+				
+				if($model->image2){
+					$model->image2->saveAs($path2);
+					 
+					$Image = Image::factory($path2);
+					$Image -> resize(800, 800);
+					$Image -> save($path2);	
+				}
+				
+				if($model->mp3){
+					$model->mp3->saveAs($path3);
+				}
+				
+				
+				
+				$this->redirect(array('view','id'=>$model->id));
+			}	
 		}
 
 		$this->render('create',array(
