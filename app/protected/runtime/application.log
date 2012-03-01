@@ -1139,3 +1139,29 @@ in Z:\home\mg\www\app\index.php (13)
 2012/02/28 01:37:42 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
 in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
 in Z:\home\mg\www\app\index.php (13)
+2012/03/01 15:11:06 [error] [exception.CException] exception 'CException' with message 'Property "Girls.age" is not defined.' in Z:\home\mg\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\mg\www\framework\db\ar\CActiveRecord.php(144): CComponent->__get('age')
+#1 Z:\home\mg\www\app\protected\views\girls\index.php(33): CActiveRecord->__get('age')
+#2 Z:\home\mg\www\framework\web\CBaseController.php(127): require('Z:\home\mg\www\...')
+#3 Z:\home\mg\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\mg\www\...', Array, true)
+#4 Z:\home\mg\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\mg\www\...', Array, true)
+#5 Z:\home\mg\www\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#6 Z:\home\mg\www\app\protected\controllers\GirlsController.php(195): CController->render('index', Array)
+#7 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): GirlsController->actionIndex()
+#8 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#15 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('index')
+#17 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls/index')
+#18 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/app/index.php?r=girls/index
+HTTP_REFERER=http://mg/app/index.php?r=girls/create
+---

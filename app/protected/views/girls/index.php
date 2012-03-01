@@ -15,29 +15,44 @@ $this->menu=array(
 			Отметьте звездочкой понравившихся участниц<br>
 			и нажмите кнопку ОБНОВИТЬ в конце списка!<br>
 
+			
+			
+			
+	<?php	foreach($dataProvider->data as $girl) {	?>
+			
 			<div class="g-item">
-				<div class="point up">Елена Менделеева, Москва</div>
+				<div class="point up"> <?php echo $girl->name; ?>, Москва</div>
 				<div class="g-body">
 					<div class="g-item-img"><div class="bord-img"></div>
-						<img src="/images/img.gif" width="66" height="66" border="0">
+						<img src="<?php echo $girl->portrait; ?>" width="66" height="66" border="0">
 					</div>
 					<div class="g-item-text">
 						<table cellpadding="0" cellspacing="0">
 							<tr>
 								<td width="70">Возраст:</td>
-								<td>21</td>
+								<td> <?php echo  (date('Y')-$girl->year); ?></td>
 							</tr>
 							<tr>
 								<td>Рост:</td>
-								<td>176</td>
+								<td><?php echo $girl->height; ?></td>
 							</tr>
 						</table>
-						<a href="">Подробнее...</a>
+						<a href="<?php echo Yii::app()->request->baseUrl.'/index.php?r=girls/view&id='.$girl->id; ?>">Подробнее...</a>
 						<div class="player">I can see.pm3</div>
 					</div>
 					<div class="clear"></div>
 				</div>
 			</div>
+			
+			
+		<?php } ?>	
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			<div class="save"></div>
