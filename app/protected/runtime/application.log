@@ -1165,3 +1165,6 @@ Stack trace:
 REQUEST_URI=/app/index.php?r=girls/index
 HTTP_REFERER=http://mg/app/index.php?r=girls/create
 ---
+2012/03/01 22:18:38 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
+in Z:\home\mg\www\app\index.php (13)

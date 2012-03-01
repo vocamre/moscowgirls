@@ -189,7 +189,7 @@ class GirlsController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Girls');
+		$dataProvider=new CActiveDataProvider('Girls',array('pagination'=>array('pageSize'=>'20')));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));

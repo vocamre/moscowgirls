@@ -93,3 +93,8 @@ img{
 .btn-ank:active {background-position:0px -40px;}
 .btn-ank:hover {background-position:0px -80px;}
 /*=========================================*/
+.pagerdiv{
+	width:250px; 
+	margin:20px auto;
+	text-align: center;
+}

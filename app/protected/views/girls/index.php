@@ -47,9 +47,9 @@ $this->menu=array(
 			
 		<?php } ?>	
 			
-			
-			
-			
+		<div class="pagerdiv">	
+		<?php $this->widget('CLinkPager',array('pages'=>$dataProvider->pagination)); ?>	
+		</div>
 			
 			
 			
@@ -62,7 +62,7 @@ $this->menu=array(
 	</div>
 	<div class="soc">1</div>
 
-<?php $this->widget('zii.widgets.CListView', array(
+<?php/* $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
-)); ?>
+)); */?>
