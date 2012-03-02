@@ -1,7 +1,8 @@
 * { margin:0; padding:0;}
 html {}
-body {  font-size: 12px;font-family: Arial, Georgia, Tahoma, Verdana, sans-serif; background:#000;
+body {  font-size: 12px;font-family: Arial, Georgia, Tahoma, Verdana, sans-serif; background:#000; overflow-x:hidden;
 }
+#stage{background:url('../images/bg.jpg') top center;}
 img{
 	border: none;
 }
@@ -14,7 +15,7 @@ img{
 .clear{
 	clear: both;
 }
-
+.container.index {position:relative; margin-top:-783px;}
 .main {width:436px; margin:0 auto; margin-top:100px;}
 .menu li {list-style:none; float:left;}
 .menu li .m1 {display:inline-block; width:140px; height:39px; background:url('../images/menu.png') no-repeat top left;}
@@ -27,7 +28,7 @@ img{
 .menu li .m2:hover {background-position:-140px -78px;}
 .menu li .m3:hover {background-position:-290px -78px;}
 
-.content {width:431px; margin:0 auto;margin-top:6px; }
+.content {width:431px; margin:0 auto;margin-top:6px; height:463px;}
 .content .cont-head {width:431px; height:38px; background:url('../images/head.png') no-repeat; text-align:center; font-size:24px; color:#940902; padding-top:12px;}
 .content .cont-body {padding:20px 0px 0 21px; width:409px; background:url('../images/bg_cont.png') repeat-y;}
 .content .cont-foot {width:431px; height:18px; background:url('../images/foot.png') no-repeat;}

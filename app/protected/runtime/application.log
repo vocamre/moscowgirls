@@ -1168,3 +1168,21 @@ HTTP_REFERER=http://mg/app/index.php?r=girls/create
 2012/03/01 22:18:38 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
 in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
 in Z:\home\mg\www\app\index.php (13)
+2012/03/02 20:07:25 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (75)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/02 20:30:41 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "layout".' in P:\home\mosc.dv\www\framework\base\CComponent.php:266
+Stack trace:
+#0 P:\home\mosc.dv\www\app\protected\controllers\SiteController.php(33): CComponent->__call('layout', Array)
+#1 P:\home\mosc.dv\www\app\protected\controllers\SiteController.php(33): SiteController->layout('index')
+#2 P:\home\mosc.dv\www\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 P:\home\mosc.dv\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 P:\home\mosc.dv\www\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 P:\home\mosc.dv\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 P:\home\mosc.dv\www\framework\web\CWebApplication.php(276): CController->run('')
+#7 P:\home\mosc.dv\www\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 P:\home\mosc.dv\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 P:\home\mosc.dv\www\app\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/app/
+---
