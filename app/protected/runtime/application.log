@@ -1168,3 +1168,30 @@ HTTP_REFERER=http://mg/app/index.php?r=girls/create
 2012/03/01 22:18:38 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
 in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
 in Z:\home\mg\www\app\index.php (13)
+2012/03/01 22:53:40 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/01 22:53:45 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/01 22:53:49 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/01 22:53:52 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/01 22:53:55 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/01 22:53:57 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/01 22:54:00 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/01 22:54:02 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/01 22:54:03 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (75)
+in Z:\home\mg\www\app\index.php (13)
