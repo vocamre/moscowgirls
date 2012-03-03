@@ -1186,3 +1186,9 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/app/
 ---
+2012/03/03 11:48:16 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (77)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/03 11:53:37 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (77)
+in P:\home\mosc.dv\www\app\index.php (13)

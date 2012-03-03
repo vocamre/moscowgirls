@@ -1,5 +1,7 @@
 $(function()
 {
-	$('.scroll-pane').jScrollPane({verticalDragMinHeight: 29,
-								   verticalDragMaxHeight: 29});
+	$('.scroll-pane').jScrollPane({
+		verticalDragMinHeight: 29,
+		verticalDragMaxHeight: 29
+	});
 });

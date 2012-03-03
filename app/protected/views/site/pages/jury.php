@@ -1,4 +1,5 @@
 <div class="cont-head">ЖЮРИ</div>
+	<div class="scroll-pane">
 		<div class="cont-body">
 			<div class="joor-item">
 				<div class="joor-item-img"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/img55.png" width="66" height="66" border="0"></div>
@@ -41,4 +42,5 @@
 				<div class="clear"></div>
 			</div>
 		</div>
-		<div class="cont-foot"></div>
+	</div>
+<div class="cont-foot"></div>
