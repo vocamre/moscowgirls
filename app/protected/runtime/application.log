@@ -1192,3 +1192,75 @@ in P:\home\mosc.dv\www\app\index.php (13)
 2012/03/03 11:53:37 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
 in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (77)
 in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:53:09 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (77)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:53:45 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (77)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:54:17 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:54:17 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:54:17 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:54:17 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:54:55 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:54:55 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:54:55 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:54:55 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:54:56 [error] [exception.CException] exception 'CException' with message 'image type not allowed' in P:\home\mosc.dv\www\app\protected\extensions\image\drivers\GD.php:71
+Stack trace:
+#0 P:\home\mosc.dv\www\app\protected\extensions\image\Image.php(334): Image_GD_Driver->process(Array, Array, 'P:/home/mosc.dv...', '_1330880095')
+#1 P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php(117): Image->save('P:/home/mosc.dv...')
+#2 P:\home\mosc.dv\www\framework\web\actions\CInlineAction.php(50): GirlsController->actionCreate()
+#3 P:\home\mosc.dv\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 P:\home\mosc.dv\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 P:\home\mosc.dv\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 P:\home\mosc.dv\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 P:\home\mosc.dv\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 P:\home\mosc.dv\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 P:\home\mosc.dv\www\framework\web\CController.php(292): CFilterChain->run()
+#10 P:\home\mosc.dv\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 P:\home\mosc.dv\www\framework\web\CWebApplication.php(276): CController->run('create')
+#12 P:\home\mosc.dv\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls/create')
+#13 P:\home\mosc.dv\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 P:\home\mosc.dv\www\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/app/index.php?r=girls/create
+HTTP_REFERER=http://mosc.dv/app/index.php?r=girls/create
+---
+2012/03/04 19:55:06 [warning] [application] Failed to set unsafe attribute "experience" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:55:06 [warning] [application] Failed to set unsafe attribute "qualities" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:55:06 [warning] [application] Failed to set unsafe attribute "hobby" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 19:55:06 [warning] [application] Failed to set unsafe attribute "purpose" of "Girls".
+in P:\home\mosc.dv\www\app\protected\controllers\GirlsController.php (71)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 21:08:15 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (77)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 22:04:21 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (77)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/04 22:23:47 [warning] [application] Failed to set unsafe attribute "fl" of "PreAnketa".
+in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (77)
+in P:\home\mosc.dv\www\app\index.php (13)

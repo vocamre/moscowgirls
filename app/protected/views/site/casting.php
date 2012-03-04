@@ -28,8 +28,8 @@
 			Для получения доступа к анкете введите цифры:<br><br>
 			
 			<div style="margin:10px;">
-			<?php $this->widget('CCaptcha'); ?>
-			<?php echo $form->textField($model,'verifyCode'); ?>
+				<?php $this->widget('CCaptcha'); ?>
+				<?php echo $form->textField($model,'verifyCode'); ?>
 			</div>
 			<div><?php echo $model->er; ?></div>
 			
