@@ -15,6 +15,9 @@ img{
 .clear{
 	clear: both;
 }
+
+#content ul li {margin:0 0 5px 15px;}
+.bigb {width:1280px; margin:0 auto;}
 .container.index {position:relative; margin-top:-783px;}
 .main {width:436px; margin:0 auto; margin-top:100px;}
 .menu li {list-style:none; float:left;}
@@ -81,7 +84,7 @@ img{
 .scroll-pane {overflow:auto; height:350px;}
 
 /*=========================================*/
-.joor-item {padding:0 0 19px 0;}
+.joor-item {padding:0 0 20px 0;}
 .joor-item .joor-item-img {float:left; border:5px solid #dadada; margin-right:16px;}
 .joor-item .joor-item-text {float:left;}
 .joor-item .joor-item-name {background:url('../images/bg_joor.png') no-repeat top left; padding:5px 0 0 23px; width:262px; height:21px; font-weight:bold;}
