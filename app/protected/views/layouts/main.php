@@ -21,13 +21,17 @@
 
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.jscrollpane.min.js"></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/application.js"></script>
+	
+	<script type="text/javascript" charset="utf-8" src="/app/js/oxo_1414_03_03_edgePreload.js"></script>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>
+<div class="bigb">
+<div id="stage" class="EDGE-3752019"><a href="/" class="logo-index"></a></div>
+<div class="container index" id="page">
 
-<div class="container" id="page">
 <div class="main">
 	<ul class="menu">
 		<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/page&view=about" class="m1"></a></li>
@@ -37,12 +41,12 @@
 	</ul>
 	<div class="content">
 
-	<?php echo $content; ?>
+		<?php echo $content; ?>
 	
 	</div>
 	<div class="soc">
 		<script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
-		<center><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki"></div> </center>
+		<center><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,odnoklassniki"></div> </center>
 	</div>
 </div>
 <div class="footer">
@@ -63,6 +67,6 @@
 	<div class="clear"></div>
 
 </div>
-
+</div>
 </body>
 </html>

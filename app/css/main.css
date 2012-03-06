@@ -18,8 +18,8 @@ img{
 
 #content ul li {margin:0 0 5px 15px;}
 .bigb {width:1280px; margin:0 auto;}
-.container.index {position:relative; margin-top:-783px;}
-.main {width:436px; margin:0 auto; margin-top:100px;}
+.container.index {position:relative; margin-top:-907px;}
+.main {width:436px; margin:0 auto; margin-top:100px; padding-left:32px;}
 .menu li {list-style:none; float:left;}
 .menu li .m1 {display:inline-block; width:140px; height:39px; background:url('../images/menu.png') no-repeat top left;}
 .menu li .m2 {display:inline-block; width:150px; height:39px; background:url('../images/menu.png') no-repeat -140px 0px;}
@@ -33,7 +33,7 @@ img{
 
 .content {width:431px; margin:0 auto;margin-top:6px; height:463px;}
 .content .cont-head {width:431px; height:38px; background:url('../images/head.png') no-repeat; text-align:center; font-size:24px; color:#940902; padding-top:12px;}
-.content .cont-body {padding:20px 0px 0 21px; width:409px; background:url('../images/bg_cont.png') repeat-y;}
+.content .cont-body {padding:20px 0px 0 21px; width:390px; background:url('../images/bg_cont.png') repeat-y;}
 .content .cont-foot {width:431px; height:18px; background:url('../images/foot.png') no-repeat;}
 .content .star {width:383px; height:20px; background:url('../images/star.png') no-repeat top left; font-size:12px; color:#000; text-align:center; font-weight:bold; padding-top:6px; margin-bottom:20px;}
 .prefooter .yel{color:#f1be00; font-size:15px;}
@@ -85,7 +85,7 @@ img{
 
 /*=========================================*/
 .joor-item {padding:0 0 20px 0;}
-.joor-item .joor-item-img {float:left; border:5px solid #dadada; margin-right:16px;}
+.joor-item .joor-item-img {float:left; border:5px solid #dadada; margin-right:16px; width:66px; height:66px;}
 .joor-item .joor-item-text {float:left;}
 .joor-item .joor-item-name {background:url('../images/bg_joor.png') no-repeat top left; padding:5px 0 0 23px; width:262px; height:21px; font-weight:bold;}
 .joor-item .joor-item-desc {margin:18px 0 0 24px;}
@@ -102,3 +102,5 @@ img{
 	margin:20px auto;
 	text-align: center;
 }
+
+a.logo-index {display:block; width:370px; height:184px; margin:0 auto; cursor:pointer; position:relative; z-index:9999;}
