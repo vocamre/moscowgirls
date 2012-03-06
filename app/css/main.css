@@ -109,4 +109,8 @@ div.errorMessage{
 }
 
 a.logo-index {display:block; width:370px; height:184px; margin:0 auto; cursor:pointer; position:relative; z-index:9999;}
-
+#PreAnketa_verifyCode{
+	float: left;
+	margin-left: 150px;
+	margin-top: -35px;
+}

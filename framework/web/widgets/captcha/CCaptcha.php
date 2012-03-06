@@ -114,7 +114,7 @@ class CCaptcha extends CWidget
 		$js="";
 		if($this->showRefreshButton)
 		{
-			$cs->registerScript('Yii.CCaptcha#'.$id,'dummy');
+			//$cs->registerScript('Yii.CCaptcha#'.$id,'dummy');
 			$label=$this->buttonLabel===null?Yii::t('yii','Get a new code'):$this->buttonLabel;
 			$options=$this->buttonOptions;
 			if(isset($options['id']))
@@ -125,8 +125,8 @@ class CCaptcha extends CWidget
 				$html=CHtml::button($label, $options);
 			else
 				$html=CHtml::link($label, $url, $options);
-			$js="jQuery('#$id').after(".CJSON::encode($html).");";
-			$selector="#$buttonID";
+			//$js="jQuery('#$id').after(".CJSON::encode($html).");";
+			//$selector="#$buttonID";
 		}
 
 		if($this->clickableImage)

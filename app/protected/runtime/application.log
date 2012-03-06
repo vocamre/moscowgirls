@@ -8,3 +8,313 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/app/index.php?r=site/girls
 ---
+2012/03/06 23:11:36 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:12:57 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:13:26 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:17:46 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:19:48 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:20:17 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:22:31 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:36:02 [error] [php] include(Z:\home\mg\www\app\protected\extensions\captchaExtended\CaptchaExtendedAction.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\mg\www\framework\YiiBase.php:397)
+Stack trace:
+#0 Z:\home\mg\www\framework\YiiBase.php(198): import()
+#1 Z:\home\mg\www\framework\web\CController.php(441): createComponent()
+#2 Z:\home\mg\www\framework\web\CController.php(418): SiteController->createActionFromMap()
+#3 Z:\home\mg\www\framework\web\CController.php(260): SiteController->createAction()
+#4 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#5 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/captcha&v=4f56753230249
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:38:00 [error] [php] include(Z:\home\mg\www\app\protected\extensions\captchaExtended\CaptchaExtendedAction.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\mg\www\framework\YiiBase.php:397)
+Stack trace:
+#0 Z:\home\mg\www\framework\YiiBase.php(198): import()
+#1 Z:\home\mg\www\framework\web\CController.php(441): createComponent()
+#2 Z:\home\mg\www\framework\web\CController.php(418): SiteController->createActionFromMap()
+#3 Z:\home\mg\www\framework\web\CController.php(260): SiteController->createAction()
+#4 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#5 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/captcha&refresh=1&_=1331066280163
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:38:00 [error] [php] include(Z:\home\mg\www\app\protected\extensions\captchaExtended\CaptchaExtendedAction.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\mg\www\framework\YiiBase.php:397)
+Stack trace:
+#0 Z:\home\mg\www\framework\YiiBase.php(198): import()
+#1 Z:\home\mg\www\framework\web\CController.php(441): createComponent()
+#2 Z:\home\mg\www\framework\web\CController.php(418): SiteController->createActionFromMap()
+#3 Z:\home\mg\www\framework\web\CController.php(260): SiteController->createAction()
+#4 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#5 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/captcha&refresh=1&_=1331066280606
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:38:02 [error] [php] include(Z:\home\mg\www\app\protected\extensions\captchaExtended\CaptchaExtendedAction.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\mg\www\framework\YiiBase.php:397)
+Stack trace:
+#0 Z:\home\mg\www\framework\YiiBase.php(198): import()
+#1 Z:\home\mg\www\framework\web\CController.php(441): createComponent()
+#2 Z:\home\mg\www\framework\web\CController.php(418): SiteController->createActionFromMap()
+#3 Z:\home\mg\www\framework\web\CController.php(260): SiteController->createAction()
+#4 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#5 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/captcha&v=4f5675a9cd066
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:39:05 [error] [php] include(Z:\home\mg\www\app\protected\extensions\captchaExtended\CaptchaExtendedValidator.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\mg\www\framework\YiiBase.php:397)
+Stack trace:
+#0 Z:\home\mg\www\framework\validators\CValidator.php(171): import()
+#1 Z:\home\mg\www\framework\base\CModel.php(285): createValidator()
+#2 Z:\home\mg\www\framework\base\CModel.php(259): PreAnketa->createValidators()
+#3 Z:\home\mg\www\framework\web\helpers\CHtml.php(1758): PreAnketa->getValidators()
+#4 Z:\home\mg\www\framework\web\helpers\CHtml.php(1205): activeInputField()
+#5 Z:\home\mg\www\framework\web\widgets\CActiveForm.php(575): activeTextField()
+#6 Z:\home\mg\www\app\protected\views\site\casting.php(32): CActiveForm->textField()
+#7 Z:\home\mg\www\framework\web\CBaseController.php(127): require()
+#8 Z:\home\mg\www\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 Z:\home\mg\www\framework\web\CController.php(870): SiteController->renderFile()
+#10 Z:\home\mg\www\framework\web\CController.php(783): SiteController->renderPartial()
+#11 Z:\home\mg\www\app\protected\controllers\SiteController.php(89): SiteController->render()
+#12 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): SiteController->actionCasting()
+#13 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#14 Z:\home\mg\www\framework\web\CController.php(287): SiteController->runAction()
+#15 Z:\home\mg\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#16 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#17 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#18 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/casting
+in Z:\home\mg\www\app\protected\views\site\casting.php (32)
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (89)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:39:53 [error] [php] include(Z:\home\mg\www\app\protected\extensions\captchaExtended\CaptchaExtendedValidator.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\mg\www\framework\YiiBase.php:397)
+Stack trace:
+#0 Z:\home\mg\www\framework\validators\CValidator.php(171): import()
+#1 Z:\home\mg\www\framework\base\CModel.php(285): createValidator()
+#2 Z:\home\mg\www\framework\base\CModel.php(259): PreAnketa->createValidators()
+#3 Z:\home\mg\www\framework\web\helpers\CHtml.php(1758): PreAnketa->getValidators()
+#4 Z:\home\mg\www\framework\web\helpers\CHtml.php(1205): activeInputField()
+#5 Z:\home\mg\www\framework\web\widgets\CActiveForm.php(575): activeTextField()
+#6 Z:\home\mg\www\app\protected\views\site\casting.php(32): CActiveForm->textField()
+#7 Z:\home\mg\www\framework\web\CBaseController.php(127): require()
+#8 Z:\home\mg\www\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 Z:\home\mg\www\framework\web\CController.php(870): SiteController->renderFile()
+#10 Z:\home\mg\www\framework\web\CController.php(783): SiteController->renderPartial()
+#11 Z:\home\mg\www\app\protected\controllers\SiteController.php(89): SiteController->render()
+#12 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): SiteController->actionCasting()
+#13 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#14 Z:\home\mg\www\framework\web\CController.php(287): SiteController->runAction()
+#15 Z:\home\mg\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#16 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#17 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#18 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/casting
+in Z:\home\mg\www\app\protected\views\site\casting.php (32)
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (89)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:39:55 [error] [php] include(Z:\home\mg\www\app\protected\extensions\captchaExtended\CaptchaExtendedValidator.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\mg\www\framework\YiiBase.php:397)
+Stack trace:
+#0 Z:\home\mg\www\framework\validators\CValidator.php(171): import()
+#1 Z:\home\mg\www\framework\base\CModel.php(285): createValidator()
+#2 Z:\home\mg\www\framework\base\CModel.php(259): PreAnketa->createValidators()
+#3 Z:\home\mg\www\framework\web\helpers\CHtml.php(1758): PreAnketa->getValidators()
+#4 Z:\home\mg\www\framework\web\helpers\CHtml.php(1205): activeInputField()
+#5 Z:\home\mg\www\framework\web\widgets\CActiveForm.php(575): activeTextField()
+#6 Z:\home\mg\www\app\protected\views\site\casting.php(32): CActiveForm->textField()
+#7 Z:\home\mg\www\framework\web\CBaseController.php(127): require()
+#8 Z:\home\mg\www\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 Z:\home\mg\www\framework\web\CController.php(870): SiteController->renderFile()
+#10 Z:\home\mg\www\framework\web\CController.php(783): SiteController->renderPartial()
+#11 Z:\home\mg\www\app\protected\controllers\SiteController.php(89): SiteController->render()
+#12 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): SiteController->actionCasting()
+#13 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#14 Z:\home\mg\www\framework\web\CController.php(287): SiteController->runAction()
+#15 Z:\home\mg\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#16 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#17 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#18 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/casting
+in Z:\home\mg\www\app\protected\views\site\casting.php (32)
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (89)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:39:57 [error] [php] include(Z:\home\mg\www\app\protected\extensions\captchaExtended\CaptchaExtendedValidator.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\mg\www\framework\YiiBase.php:397)
+Stack trace:
+#0 Z:\home\mg\www\framework\validators\CValidator.php(171): import()
+#1 Z:\home\mg\www\framework\base\CModel.php(285): createValidator()
+#2 Z:\home\mg\www\framework\base\CModel.php(259): PreAnketa->createValidators()
+#3 Z:\home\mg\www\framework\web\helpers\CHtml.php(1758): PreAnketa->getValidators()
+#4 Z:\home\mg\www\framework\web\helpers\CHtml.php(1205): activeInputField()
+#5 Z:\home\mg\www\framework\web\widgets\CActiveForm.php(575): activeTextField()
+#6 Z:\home\mg\www\app\protected\views\site\casting.php(32): CActiveForm->textField()
+#7 Z:\home\mg\www\framework\web\CBaseController.php(127): require()
+#8 Z:\home\mg\www\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 Z:\home\mg\www\framework\web\CController.php(870): SiteController->renderFile()
+#10 Z:\home\mg\www\framework\web\CController.php(783): SiteController->renderPartial()
+#11 Z:\home\mg\www\app\protected\controllers\SiteController.php(89): SiteController->render()
+#12 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): SiteController->actionCasting()
+#13 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#14 Z:\home\mg\www\framework\web\CController.php(287): SiteController->runAction()
+#15 Z:\home\mg\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#16 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#17 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#18 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/casting
+in Z:\home\mg\www\app\protected\views\site\casting.php (32)
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (89)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:39:58 [error] [php] include(Z:\home\mg\www\app\protected\extensions\captchaExtended\CaptchaExtendedValidator.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\mg\www\framework\YiiBase.php:397)
+Stack trace:
+#0 Z:\home\mg\www\framework\validators\CValidator.php(171): import()
+#1 Z:\home\mg\www\framework\base\CModel.php(285): createValidator()
+#2 Z:\home\mg\www\framework\base\CModel.php(259): PreAnketa->createValidators()
+#3 Z:\home\mg\www\framework\web\helpers\CHtml.php(1758): PreAnketa->getValidators()
+#4 Z:\home\mg\www\framework\web\helpers\CHtml.php(1205): activeInputField()
+#5 Z:\home\mg\www\framework\web\widgets\CActiveForm.php(575): activeTextField()
+#6 Z:\home\mg\www\app\protected\views\site\casting.php(32): CActiveForm->textField()
+#7 Z:\home\mg\www\framework\web\CBaseController.php(127): require()
+#8 Z:\home\mg\www\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 Z:\home\mg\www\framework\web\CController.php(870): SiteController->renderFile()
+#10 Z:\home\mg\www\framework\web\CController.php(783): SiteController->renderPartial()
+#11 Z:\home\mg\www\app\protected\controllers\SiteController.php(89): SiteController->render()
+#12 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): SiteController->actionCasting()
+#13 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#14 Z:\home\mg\www\framework\web\CController.php(287): SiteController->runAction()
+#15 Z:\home\mg\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#16 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#17 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#18 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/casting
+in Z:\home\mg\www\app\protected\views\site\casting.php (32)
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (89)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:44:07 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:51:25 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:57:00 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/06 23:57:09 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:01:43 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:02:52 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:03:07 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:03:20 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:03:40 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:04:09 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:04:21 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:06:55 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:07:19 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:07:39 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:07:53 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:08:03 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:08:09 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:08:09 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:08:09 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:08:09 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:08:15 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:08:15 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:08:15 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:08:15 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:08:48 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:09:21 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:09:32 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:09:39 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:10:53 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:12:47 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:13:20 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:13:47 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:14:02 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:14:13 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:14:49 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:15:05 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:17:56 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)

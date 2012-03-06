@@ -10,7 +10,7 @@ class SiteController extends Controller
 		return array(
 			// captcha action renders the CAPTCHA image displayed on the contact page
 			'captcha'=>array(
-				'class'=>'CCaptchaAction',
+				'class'=>'CaptchaExtendedAction',
 				'backColor'=>0xFFFFFF,
 			),
 			// page action renders "static" pages stored under 'protected/views/site/pages'
@@ -83,7 +83,7 @@ class SiteController extends Controller
 			{
 				$this->redirect(Yii::app()->request->baseUrl.'/index.php?r=girls/create');
 			}
-			else $model->er='<br>Вы ввели неверный код. Пожалуйста введите заново<br>';
+			else $model->er='Вы ввели неверный код. Пожалуйста введите заново<br>';
 		}	
 		
 		$this->render('casting',array('model'=>$model));

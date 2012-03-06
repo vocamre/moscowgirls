@@ -13,7 +13,7 @@
 				<li>После завершение первого этапа, мы свяжемся с участницами, которые больше всего понравились нашему жюри и пригласим их на личное прослушивание. Дата и место прослушивания уточняется администратором;</li>
 				<li>В случае необходимости мы оставляем за собой возможность проведения дополнительного этапа кастинга.</li>
 			</ul>
-			
+		<div style="height:200px; margin-bottom:15px;">
 			<?php $form=$this->beginWidget('CActiveForm', array(
 				'id'=>'cform',
 				'enableClientValidation'=>true,
@@ -21,6 +21,7 @@
 					'validateOnSubmit'=>true,
 				),
 			)); ?>
+
 			
 			<div class="ch">
 				<?php echo $form->checkBox($model,'fl',array('class'=>'ch-bt','value'=>'1')); ?>&nbsp; C правилами участия ознакомлена.
@@ -31,10 +32,14 @@
 				<?php $this->widget('CCaptcha'); ?>
 				<?php echo $form->textField($model,'verifyCode'); ?>
 			</div>
-			<div><?php echo $model->er; ?></div>
+			<div style="margin:10px"><?php echo $model->er; ?></div>
 			
-			<center><input type="submit" class="btn-ank" value=""></center>
+			
+			
+			<div style="height:40px;"><center><input type="submit" class="btn-ank" value=""></center></div>
 			<?php $this->endWidget(); ?>
+			
+		</div>
 		</div>
 </div>
 		<div class="cont-foot"></div>

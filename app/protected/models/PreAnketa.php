@@ -16,7 +16,7 @@ class PreAnketa extends CFormModel
 	public function rules()
 	{
 		return array(
-			array('verifyCode', 'captcha', 'allowEmpty'=>!CCaptcha::checkRequirements()),
+			 array('verifyCode', 'CaptchaExtendedValidator', 'allowEmpty'=>!CCaptcha::checkRequirements()),
 		);
 	}
 
