@@ -38,16 +38,21 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		/*
-		'urlManager'=>array(
+		
+		/*'urlManager'=>array(
 			'urlFormat'=>'path',
+			'showScriptName'=>false ,
 			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
+				/*'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+				 'admin' => 'site/login',
+				 'about'=>'site/page/view/about',
+				 'casting'=>'site/casting',
+				 'jury'=>'site/page/view/jury',
 			),
 		),
-		
+		/*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),

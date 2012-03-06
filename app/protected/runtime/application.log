@@ -585,3 +585,206 @@ in Z:\home\mg\www\app\index.php (13)
 2012/03/07 01:03:09 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
 in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
 in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:14:15 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "<action>".' in Z:\home\mg\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(271): CController->missingAction('<action>')
+#1 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('<action>')
+#2 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/<action>')
+#3 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/admin
+---
+2012/03/07 01:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "<action>".' in Z:\home\mg\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(271): CController->missingAction('<action>')
+#1 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('<action>')
+#2 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/<action>')
+#3 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/admin
+---
+2012/03/07 01:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "<action>".' in Z:\home\mg\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(271): CController->missingAction('<action>')
+#1 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('<action>')
+#2 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/<action>')
+#3 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/admin
+---
+2012/03/07 01:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "<login>".' in Z:\home\mg\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(271): CController->missingAction('<login>')
+#1 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('<login>')
+#2 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/<login>')
+#3 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/admin
+---
+2012/03/07 01:43:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "<login>".' in Z:\home\mg\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(271): CController->missingAction('<login>')
+#1 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('<login>')
+#2 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/<login>')
+#3 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/admin
+---
+2012/03/07 01:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "login".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/login
+---
+2012/03/07 01:44:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "<login>".' in Z:\home\mg\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(271): CController->missingAction('<login>')
+#1 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('<login>')
+#2 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/<login>')
+#3 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/admin
+---
+2012/03/07 01:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "page&view=about".' in Z:\home\mg\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(271): CController->missingAction('page&view=about')
+#1 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('page&view=about')
+#2 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page&view=...')
+#3 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/about
+---
+2012/03/07 02:11:31 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 02:11:41 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 02:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "login".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('login')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/login
+---
+2012/03/07 02:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/print.css".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('css/print.css')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/css/print.css
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery.jscrollpane.min.js".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.jscro...')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/js/jquery.jscrollpane.min.js
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery.mousewheel.js".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.mouse...')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/js/jquery.mousewheel.js
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/jquery.jscrollpane.css".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('css/jquery.jscr...')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/css/jquery.jscrollpane.css
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/main.css".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('css/main.css')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/css/main.css
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery.min.js".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.min.j...')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/js/jquery.min.js
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/oxo_1414_03_02_edgePreload.js".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('js/oxo_1414_03_...')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/js/oxo_1414_03_02_edgePreload.js
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/application.js".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('js/application....')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/js/application.js
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery.mousewheel.js".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.mouse...')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/js/jquery.mousewheel.js
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/jquery.jscrollpane.min.js".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('js/jquery.jscro...')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/js/jquery.jscrollpane.min.js
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/application.js".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('js/application....')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/js/application.js
+HTTP_REFERER=http://mg/
+---
+2012/03/07 02:20:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/oxo_1414_03_02_edgePreload.js".' in Z:\home\mg\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('js/oxo_1414_03_...')
+#1 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/js/oxo_1414_03_02_edgePreload.js
+HTTP_REFERER=http://mg/
+---
