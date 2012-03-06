@@ -10,12 +10,11 @@ $this->menu=array(
 ?>
 
 <div class="cont-head">УЧАСТНИЦЫ</div>
+<div class="scroll-pane" style="padding-top:0px;">
 		<div class="cont-body">
 			<b>Уважаемые члены жюри!</b><br>
 			Отметьте звездочкой понравившихся участниц<br>
 			и нажмите кнопку ОБНОВИТЬ в конце списка!<br>
-
-			
 			
 			
 	<?php	foreach($dataProvider->data as $girl) {	?>
@@ -37,8 +36,10 @@ $this->menu=array(
 								<td><?php echo $girl->height; ?></td>
 							</tr>
 						</table>
-						<a href="<?php echo Yii::app()->request->baseUrl.'/index.php?r=girls/view&id='.$girl->id; ?>">Подробнее...</a>
-						<div class="player">I can see.pm3</div>
+						<a class="desc-us" href="<?php echo Yii::app()->request->baseUrl.'/index.php?r=girls/view&id='.$girl->id; ?>">Подробнее...</a>
+						<div class="player">
+							<object type="application/x-shockwave-flash" data="http://flv-mp3.com/i/pic/ump3player_500x70.swf" height="43" width="287"><param name="wmode" value="transparent" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="movie" value="http://flv-mp3.com/i/pic/ump3player_500x70.swf" /><param name="FlashVars" value="way=http://mosc.dv/app/images/test.mp3&amp;swf=http://flv-mp3.com/i/pic/ump3player_500x70.swf&amp;w=287&amp;h=43&amp;time_seconds=164&amp;autoplay=0&amp;q=1&amp;skin=white&amp;volume=70&amp;comment=" /></object>
+						</div>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -50,17 +51,13 @@ $this->menu=array(
 		<div class="pagerdiv">	
 		<?php $this->widget('CLinkPager',array('pages'=>$dataProvider->pagination)); ?>	
 		</div>
-			
-			
-			
-			
-			
+
 			<div class="save"></div>
 			
 		</div>
+		</div>
 		<div class="cont-foot"></div>
 	</div>
-	<div class="soc">1</div>
 
 <?php/* $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
