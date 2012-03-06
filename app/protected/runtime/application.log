@@ -1,0 +1,10 @@
+2012/03/06 21:27:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "girls".' in Z:\home\mg\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(271): CController->missingAction('girls')
+#1 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('girls')
+#2 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/girls')
+#3 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/index.php?r=site/girls
+---

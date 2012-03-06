@@ -5,9 +5,12 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Login</h1>
+<div class="cont-head">УЧАСТНИЦЫ</div>
+		<div class="cont-body">
 
-<p>Please fill out the following form with your login credentials:</p>
+<h1>Войти</h1>
+<br>
+<p>Пожалуйста введите логин и пароль:</p>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -18,32 +21,34 @@ $this->breadcrumbs=array(
 	),
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'username'); ?>
+	<p class="note">Поля, отмеченные <span class="required">*</span> обязательны.</p>
+<br>
+	<div class="row" style="margin-bottom:5px;">
+		Логин:&nbsp;&nbsp;&nbsp;&nbsp;
 		<?php echo $form->textField($model,'username'); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>
-
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'password'); ?>
+		Пароль:&nbsp;
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
-		<p class="hint">
-			Hint: You may login with <tt>demo/demo</tt> or <tt>admin/admin</tt>.
-		</p>
+		
 	</div>
-
+<br>
 	<div class="row rememberMe">
 		<?php echo $form->checkBox($model,'rememberMe'); ?>
-		<?php echo $form->label($model,'rememberMe'); ?>
+		Запомнить меня
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
-
+<br><br>
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Login'); ?>
+		<?php echo CHtml::submitButton('Войти'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->
+
+
+</div>
+		<div class="cont-foot"></div>

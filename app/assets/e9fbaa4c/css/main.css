@@ -290,7 +290,9 @@ div.form .errorMessage
 	color: red;
 	font-size: 0.9em;
 }
-
+#LoginForm_password_em_{
+	font-size: 10px;
+}
 div.form .errorSummary p
 {
 	margin: 0;
