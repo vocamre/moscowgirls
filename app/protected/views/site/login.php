@@ -5,10 +5,9 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<div class="cont-head">УЧАСТНИЦЫ</div>
-		<div class="cont-body">
+<div class="cont-head">ВХОД НА САЙТ</div>
+		<div class="cont-body" style="width:410px;">
 
-<h1>Войти</h1>
 <br>
 <p>Пожалуйста введите логин и пароль:</p>
 

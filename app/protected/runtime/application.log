@@ -8,3 +8,68 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/app/index.php?r=site/girls
 ---
+2012/03/06 22:03:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in P:\home\mosc.dv\www\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 P:\home\mosc.dv\www\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 P:\home\mosc.dv\www\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 P:\home\mosc.dv\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 P:\home\mosc.dv\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 P:\home\mosc.dv\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 P:\home\mosc.dv\www\framework\web\CController.php(292): CFilterChain->run()
+#6 P:\home\mosc.dv\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 P:\home\mosc.dv\www\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 P:\home\mosc.dv\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls/admin')
+#9 P:\home\mosc.dv\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 P:\home\mosc.dv\www\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/app/index.php?r=girls/admin
+HTTP_REFERER=http://mosc.dv/app/index.php?r=girls/create
+---
+2012/03/06 22:27:06 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (77)
+in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/06 22:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "girls".' in P:\home\mosc.dv\www\framework\web\CController.php:484
+Stack trace:
+#0 P:\home\mosc.dv\www\framework\web\CController.php(271): CController->missingAction('girls')
+#1 P:\home\mosc.dv\www\framework\web\CWebApplication.php(276): CController->run('girls')
+#2 P:\home\mosc.dv\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/girls')
+#3 P:\home\mosc.dv\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 P:\home\mosc.dv\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/index.php?r=site/girls
+---
+2012/03/06 22:28:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "girl".' in P:\home\mosc.dv\www\framework\web\CController.php:484
+Stack trace:
+#0 P:\home\mosc.dv\www\framework\web\CController.php(271): CController->missingAction('girl')
+#1 P:\home\mosc.dv\www\framework\web\CWebApplication.php(276): CController->run('girl')
+#2 P:\home\mosc.dv\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/girl')
+#3 P:\home\mosc.dv\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 P:\home\mosc.dv\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/index.php?r=site/girl
+---
+2012/03/06 22:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "girl/view".' in P:\home\mosc.dv\www\framework\web\CWebApplication.php:280
+Stack trace:
+#0 P:\home\mosc.dv\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girl/view')
+#1 P:\home\mosc.dv\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 P:\home\mosc.dv\www\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/app/index.php?r=girl/view
+---
+2012/03/06 22:29:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in P:\home\mosc.dv\www\framework\web\CController.php:337
+Stack trace:
+#0 P:\home\mosc.dv\www\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 P:\home\mosc.dv\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 P:\home\mosc.dv\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 P:\home\mosc.dv\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 P:\home\mosc.dv\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 P:\home\mosc.dv\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 P:\home\mosc.dv\www\framework\web\CController.php(292): CFilterChain->run()
+#7 P:\home\mosc.dv\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 P:\home\mosc.dv\www\framework\web\CWebApplication.php(276): CController->run('view')
+#9 P:\home\mosc.dv\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls/view')
+#10 P:\home\mosc.dv\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 P:\home\mosc.dv\www\app\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/app/index.php?r=girls/view
+---
