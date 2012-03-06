@@ -73,15 +73,15 @@ class SiteController extends Controller
 		$model=new PreAnketa;
 		if(isset($_POST['PreAnketa']))
 		{
-		
 			$model->attributes=$_POST['PreAnketa'];
-			$model->fl=$_POST['PreAnketa[fl]'];
-			
-
 			
 		 if($model->validate())
 			{
-				$this->redirect(Yii::app()->request->baseUrl.'/index.php?r=girls/create');
+				if($_POST['PreAnketa']['fl']=='111')
+					{
+						$this->redirect(Yii::app()->request->baseUrl.'/index.php?r=girls/create');
+					}
+				else $model->er='Вы должны согласиться с правилами<br>';
 			}
 			else $model->er='Вы ввели неверный код. Пожалуйста введите заново<br>';
 		}	

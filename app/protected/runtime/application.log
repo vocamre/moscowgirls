@@ -386,3 +386,202 @@ Stack trace:
 REQUEST_URI=/app/index.php?r=girls/view
 ---
 >>>>>>> 3265968caee4c000a48486c2c0a8f3dc79e572d1
+2012/03/07 00:21:29 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:22:03 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:23:54 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:24:20 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:31:33 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:31:39 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:31:43 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:35:36 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:35:36 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:35:41 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:35:41 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:35:58 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:35:58 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:36:58 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:36:58 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:37:03 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:37:03 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:37:25 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:37:25 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:38:07 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:38:07 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:38:16 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:38:16 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:38:21 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:38:21 [warning] [application] Не удалось присвоить небезопасный атрибут "verifyCode" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:39:08 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:39:15 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:39:19 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:41:24 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:41:29 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:41:53 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:42:25 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:42:52 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:44:29 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:44:40 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:44:54 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:45:44 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:45:56 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:47:40 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:47:52 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:48:15 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:48:38 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:49:43 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (78)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:51:42 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:52:15 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:54:25 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:55:02 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:57:25 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:57:39 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 00:58:40 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:00:52 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:00:52 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\mg\www\app\protected\controllers\SiteController.php:76) (Z:\home\mg\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\mg\www\app\protected\controllers\SiteController.php(89): SiteController->redirect()
+#1 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): SiteController->actionCasting()
+#2 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 Z:\home\mg\www\framework\web\CController.php(287): SiteController->runAction()
+#4 Z:\home\mg\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#6 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/casting
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (89)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:01:18 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:01:31 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:01:31 [error] [php] Cannot modify header information - headers already sent by (output started at Z:\home\mg\www\app\protected\controllers\SiteController.php:83) (Z:\home\mg\www\framework\web\CHttpRequest.php:716)
+Stack trace:
+#0 Z:\home\mg\www\app\protected\controllers\SiteController.php(89): SiteController->redirect()
+#1 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): SiteController->actionCasting()
+#2 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 Z:\home\mg\www\framework\web\CController.php(287): SiteController->runAction()
+#4 Z:\home\mg\www\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 Z:\home\mg\www\framework\web\CWebApplication.php(276): SiteController->run()
+#6 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 Z:\home\mg\www\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/app/index.php?r=site/casting
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (89)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:01:57 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:02:22 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:03:01 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/07 01:03:09 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (80)
+in Z:\home\mg\www\app\index.php (13)

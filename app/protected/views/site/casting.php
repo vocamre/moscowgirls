@@ -24,7 +24,7 @@
 
 			
 			<div class="ch">
-				<?php echo $form->checkBox($model,'fl',array('class'=>'ch-bt','value'=>'1')); ?>&nbsp; C правилами участия ознакомлена.
+				<input  name="PreAnketa[fl]" type="checkbox" value="111">&nbsp; C правилами участия ознакомлена.
 			</div>
 			Для получения доступа к анкете введите цифры:<br><br>
 			

@@ -17,6 +17,7 @@ class PreAnketa extends CFormModel
 	{
 		return array(
 			 array('verifyCode', 'CaptchaExtendedValidator', 'allowEmpty'=>!CCaptcha::checkRequirements()),
+			 //array('fl', 'required', 'requiredValue' => true),
 		);
 	}
 
