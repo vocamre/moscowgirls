@@ -40,7 +40,10 @@
 	<?php echo $content; ?>
 	
 	</div>
-	<div class="soc">1</div>
+	<div class="soc">
+		<script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+		<center><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki"></div> </center>
+	</div>
 </div>
 <div class="footer">
 	<div class="prefooter">
@@ -48,11 +51,11 @@
 		<span class="flr wh">&copy; 2012 Kremlin Multimedia</span>
 		<div class="clear"></div>
 	</div>
-	<a href="" class="mini"></a>
-	<a href="" class="mosc"></a>
-	<a href="" class="krem"></a>
-	<a href="" class="icon"></a>
-	<a href="" class="bank"></a>
+	<a href="/" class="mini"></a>
+	<a href="http://wowmoscow.net/" class="mosc"></a>
+	<a href="http://kremlinmultimedia.com/" class="krem"></a>
+	<a href="http://www.iconsofrussia.com" class="icon"></a>
+	<a href="http://www.sbrf.ru" class="bank"></a>
 	
 	<span class="kont">Позвонить нам: +7(495) 488-59-80<br>Написать: <a href="mailto:info@wowmusic.biz">info@wowmusic.biz</a></span>
 	<div class="clear"></a>
