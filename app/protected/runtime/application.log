@@ -788,3 +788,6 @@ Stack trace:
 REQUEST_URI=/app/js/oxo_1414_03_02_edgePreload.js
 HTTP_REFERER=http://mg/
 ---
+2012/03/09 22:46:07 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
