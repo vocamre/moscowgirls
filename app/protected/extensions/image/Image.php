@@ -120,7 +120,7 @@ class Image {
 		$driver = 'Image_'.ucfirst($this->config['driver']).'_Driver';
 
         // Load the driver
-        require("drivers/{$this->config['driver']}.php");
+        require_once("drivers/{$this->config['driver']}.php");
 
 		// Initialize the driver
 		$this->driver = new $driver($this->config['params']);

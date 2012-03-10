@@ -51,6 +51,8 @@ class Image_GD_Driver extends Image_Driver {
 		switch (strtolower(substr(strrchr($file, '.'), 1)))
 		{
 			case 'jpg':
+				$save = 'imagejpeg';
+			break;
 			case 'jpeg':
 				$save = 'imagejpeg';
 			break;
@@ -68,7 +70,7 @@ class Image_GD_Driver extends Image_Driver {
 
 		// Make sure the image type is supported for saving
 		if (empty($save) OR ! function_exists($save))
-			throw new CException('image type not allowed');
+			{var_dump($save); throw new CException('image type not allowed'); }
 
 		// Load the image
 		$this->image = $image;

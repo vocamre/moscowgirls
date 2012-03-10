@@ -4,6 +4,7 @@
 		<?php echo $content; ?>
 	</div><!-- content -->
 </div>
+<?php /*
 <div class="span-5 last">
 	<div id="sidebar">
 	<?php
@@ -18,4 +19,6 @@
 	?>
 	</div><!-- sidebar -->
 </div>
+*/?>
+
 <?php $this->endContent(); ?>

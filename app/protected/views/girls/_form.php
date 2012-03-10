@@ -25,12 +25,27 @@
 					<td>
 						<?php echo $form->textField($model,'day', array('style'=>'width:37px;', 'value'=>'01')); ?>
 						<?php echo $form->error($model,'day'); ?>
-						<?php echo $form->textField($model,'month', array('style'=>'width:124px; text-align:center', 'value'=>'январь')); ?>
+						<?php echo $form->dropDownList($model,'month',array('1'=>'январь', '2'=>'февраль', '3'=>'март', '4'=>'апрель', '5'=>'май', '6'=>'июнь', '7'=>'июль', '8'=>'август', '9'=>'сентябрь', '10'=>'октябрь', '11'=>'ноябрь', '12'=>'декабрь'), array('size'=>1,'maxlength'=>20)); ?>
 						<?php echo $form->error($model,'month'); ?>
 						<?php echo $form->textField($model,'year', array('style'=>'width:37px;', 'value'=>'2012')); ?>
 						<?php echo $form->error($model,'year'); ?>
 					</td>
 				</tr>
+				<tr>
+					<td>Гражданство</td>
+					<td>
+						<?php echo $form->textField($model,'nationality',array('size'=>50,'maxlength'=>50)); ?>
+						<?php echo $form->error($model,'nationality'); ?>
+					</td>
+				</tr>
+				<tr>
+					<td>Место фактического проживания</td>
+					<td>
+						<?php echo $form->textField($model,'registration',array('size'=>100,'maxlength'=>100)); ?>
+						<?php echo $form->error($model,'registration'); ?>
+					</td>
+				</tr>
+				
 				<tr>
 					<td>Номер телефона</td>
 					<td>
@@ -79,13 +94,13 @@
 				<tr>
 					<td width="128">Семейное положение</td>
 					<td>
-					<?php echo $form->dropDownList($model,'marital',array('не замужем'=>'не замужем', 'замужем'=>'замужем'), array('size'=>1,'maxlength'=>20)); ?>
+					<?php echo $form->dropDownList($model,'marital',array('не замужем'=>'не замужем', 'замужем'=>'замужем', 'разведена'=>'разведена', 'вдова'=>'вдова', 'другое'=>'другое'), array('size'=>1,'maxlength'=>20)); ?>
 					</td>
 				</tr>
 				<tr>
 					<td>Образование</td>
 					<td>
-						<?php echo $form->dropDownList($model,'education',array('высшее'=>'высшее', 'среднее'=>'среднее', 'нет'=>'нет'), array('size'=>1,'maxlength'=>20)); ?>
+						<?php echo $form->dropDownList($model,'education',array('высшее'=>'высшее', 'неоконченное высшее'=>'неоконченное высшее', 'среднее'=>'среднее', 'нет'=>'нет', 'другое'=>'другое'), array('size'=>1,'maxlength'=>20)); ?>
 					</td>
 				</tr>
 				<tr>
@@ -116,12 +131,26 @@
 						<?php echo $form->error($model,'purpose'); ?>
 					</td>
 				</tr>
+				<tr>
+					<td class="cv">Есть ли действующие контракты-договоры с ПЦ, рекламными агентствами и т.п.</td>
+					<td>
+						<?php echo $form->textArea($model,'contracts'); ?>
+						<?php echo $form->error($model,'contracts'); ?>
+					</td>
+				</tr>
 			</table>
 
 	
 
 			<div class="txt">Творческие работы</div>
 			<table class="tab" cellspacing="0" cellpadding="0" border="0">
+				<tr>
+					<td width="128">Ссылки на аудио или видео с вашим участием</td>
+					<td>
+						<?php echo $form->textArea($model,'links'); ?>
+						<?php echo $form->error($model,'links'); ?>
+					</td>
+				</tr>
 				<tr>
 					<td width="128">Демо-запись</td>
 					<td>

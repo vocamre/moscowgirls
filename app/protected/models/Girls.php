@@ -56,13 +56,12 @@ class Girls extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			/*array('name, day, year, month, phone, email, height, weight, param1, param2, param3, marital, education, experience, qualities, hobby, purpose, demo, portrait, fulllengthportrait', 'required'),*/
-			array('portrait', 'required'),
+			array('name, day, year, month, phone, email, height, weight, param1, param2, param3, marital, education, experience, qualities, hobby, purpose, demo, portrait, fulllengthportrait', 'required'),
 			array('day, year, month, rating', 'numerical', 'integerOnly'=>true),
 			array('height, weight, param1, param2, param3', 'numerical'),
-			array('name, demo, portrait, fulllengthportrait', 'length', 'max'=>50),
-			array('portrait, fulllengthportrait', 'file', 'types'=>'jpg, gif, png', 'on'=>'create, update'),
-			array('demo', 'file', 'types'=>'mp3', 'on'=>'create, update'),
+			array('name', 'length', 'max'=>50),
+			array('image, image2', 'file', 'types'=>'jpg, gif, png', 'maxSize'=>1024 * 1024 * 5),
+			array('mp3', 'file', 'types'=>'mp3', 'maxSize'=>1024 * 1024 * 15),
 			array('phone', 'length', 'max'=>12),
 			array('email, education', 'length', 'max'=>30),
 			array('marital', 'length', 'max'=>10),

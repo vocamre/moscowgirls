@@ -74,8 +74,8 @@ class GirlsController extends Controller
 			if(isset($_POST['Girls']['portrait'])){
 					$model->image=CUploadedFile::getInstance($model,'portrait');
 
-					if($model->image){
-						$pathPart2='/images/portraits/'.$model->id.'_'.time().$model->portrait;
+					if($model->image){ 
+						$pathPart2='/images/portraits/'.time().'.'.end(explode(".", $model->image->getName()));
 						$path=Yii::getpathOfAlias('webroot').$pathPart2;
 						$model->portrait=Yii::app()->request->baseUrl.$pathPart2;
 					}
@@ -86,7 +86,7 @@ class GirlsController extends Controller
 					$model->image2=CUploadedFile::getInstance($model,'fulllengthportrait');
 
 					if($model->image2){
-						$path2Part2='/images/portraits/'.$model->id.'_'.time().$model->fulllengthportrait;
+						$path2Part2='/images/portraits/'.time().'_fl.'.end(explode(".", $model->image2->getName()));
 						$path2=Yii::getpathOfAlias('webroot').$path2Part2;
 						$model->fulllengthportrait=Yii::app()->request->baseUrl.$path2Part2;
 					}
@@ -97,7 +97,7 @@ class GirlsController extends Controller
 					$model->mp3=CUploadedFile::getInstance($model,'demo');
 
 					if($model->mp3){
-						$path3Part2='/mp3/demos/'.$model->id.'_'.time().$model->demo;
+						$path3Part2='/mp3/demos/'.time().'.'.end(explode(".", $model->mp3->getName()));
 						$path3=Yii::getpathOfAlias('webroot').$path3Part2;
 						$model->demo=Yii::app()->request->baseUrl.$path3Part2;
 					}
@@ -112,17 +112,29 @@ class GirlsController extends Controller
 				if($model->image){
 					$model->image->saveAs($path); 
 					 
-					$Image = Image::factory($path);
+					$bigpath = substr($path,0,strrpos($path,".")).'_big.'.end(explode(".", $path)); //var_dump($bigpath);
+					$Image = Image::factory($path);	
 					$Image -> resize(600, 600);
-					$Image -> save($path);	
+					$Image -> save($bigpath);
+					
+					$Image = Image::factory($path);	
+					$Image -> resize(200, 200);
+					$Image -> save($path);
+					
+					
 				}
 				
 				if($model->image2){
 					$model->image2->saveAs($path2);
+					
+					$bigpath2 = substr($path2,0,strrpos($path2,".")).'_big.'.end(explode(".", $path2)); 
+					$Image2 = Image::factory($path2);	
+					$Image2 -> resize(800, 800);
+					$Image2 -> save($bigpath2);
 					 
-					$Image = Image::factory($path2);
-					$Image -> resize(800, 800);
-					$Image -> save($path2);	
+					$Image2 = Image::factory($path2);
+					$Image2 -> resize(200, 200);
+					$Image2 -> save($path2);	
 				}
 				
 				if($model->mp3){
@@ -189,7 +201,7 @@ class GirlsController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Girls',array('pagination'=>array('pageSize'=>'20')));
+		$dataProvider=new CActiveDataProvider('Girls',array('pagination'=>array('pageSize'=>'99999999999')));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
