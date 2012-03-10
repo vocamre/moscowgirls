@@ -4529,3 +4529,600 @@ in Z:\home\mg\www\app\index.php (13)
 2012/03/10 05:14:52 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
 in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
 in Z:\home\mg\www\app\index.php (13)
+2012/03/10 05:25:32 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "nationality" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "registration" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:26:23 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "nationality" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "registration" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 11:58:30 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:15:54 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "nationality" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "registration" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:16:07 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:26:47 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:27:42 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:27:42 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:27:42 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:27:42 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:27:42 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:27:42 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:27:42 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:27:42 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:27:42 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:27:42 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Girls.image".' in Z:\home\mg\www\framework\base\CComponent.php:174
+Stack trace:
+#0 Z:\home\mg\www\framework\db\ar\CActiveRecord.php(160): CComponent->__set('image', Object(CUploadedFile))
+#1 Z:\home\mg\www\app\protected\controllers\GirlsController.php(75): CActiveRecord->__set('image', Object(CUploadedFile))
+#2 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): GirlsController->actionCreate()
+#3 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#6 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#7 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#10 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('create')
+#12 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls/create')
+#13 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/app/index.php?r=girls/create
+HTTP_REFERER=http://mg/app/index.php?r=girls/create
+---
+2012/03/10 12:28:09 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:28:09 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:28:09 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:28:09 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:28:09 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:28:09 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:28:09 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:28:09 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:28:09 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:23 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:23 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:23 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:23 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:23 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:23 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:23 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:23 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:23 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:48 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:48 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:48 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:48 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:48 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:48 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:48 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:48 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:30:48 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:35:48 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:35:48 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:35:48 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:35:48 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:35:48 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:35:48 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:35:48 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:35:48 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:35:48 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "nationality" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "registration" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:37:15 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:39:24 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:39:24 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:39:24 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:39:24 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:39:24 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:39:24 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:39:24 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:39:24 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:39:24 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:40:04 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:40:04 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:40:04 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:40:04 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:40:04 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:40:04 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:40:04 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:40:04 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:40:04 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:41:34 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:41:59 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:41:59 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:41:59 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:41:59 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:41:59 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:41:59 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:41:59 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:41:59 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:41:59 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:44:25 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:44:25 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:44:25 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:44:25 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:44:25 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:44:25 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:44:25 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:44:25 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:44:25 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:45:14 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:45:14 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:45:14 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:45:14 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:45:14 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:45:14 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:45:14 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:45:14 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:45:14 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:46:55 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:46:55 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:46:55 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:46:55 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:46:55 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:46:55 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:46:55 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:46:55 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:46:55 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:54:05 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:54:05 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:54:05 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:54:05 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:54:05 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:54:05 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:54:05 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:54:05 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:54:05 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:58:39 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:58:39 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:58:39 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:58:39 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:58:39 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:58:39 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:58:39 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:58:39 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 12:58:39 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:06:53 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:06:53 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:06:53 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:06:53 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:06:53 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:06:53 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:06:53 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:06:53 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:06:53 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:25 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:25 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:25 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:25 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:25 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:25 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:25 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:25 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:25 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:39 [warning] [application] Не удалось присвоить небезопасный атрибут "experience" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:39 [warning] [application] Не удалось присвоить небезопасный атрибут "qualities" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:39 [warning] [application] Не удалось присвоить небезопасный атрибут "hobby" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:39 [warning] [application] Не удалось присвоить небезопасный атрибут "purpose" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:39 [warning] [application] Не удалось присвоить небезопасный атрибут "contracts" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:39 [warning] [application] Не удалось присвоить небезопасный атрибут "links" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:39 [warning] [application] Не удалось присвоить небезопасный атрибут "demo" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:39 [warning] [application] Не удалось присвоить небезопасный атрибут "portrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/10 13:08:39 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
+in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
+in Z:\home\mg\www\app\index.php (13)

@@ -69,7 +69,14 @@ class GirlsController extends Controller
 		if(isset($_POST['Girls']))
 		{
 			$model->attributes=$_POST['Girls'];
+			$model->experience=$_POST['Girls']['experience'];
+			$model->qualities=$_POST['Girls']['qualities'];
+			$model->hobby=$_POST['Girls']['hobby'];
+			$model->purpose=$_POST['Girls']['purpose'];
+			$model->contracts=$_POST['Girls']['contracts'];
+			$model->links=$_POST['Girls']['links'];
 			
+			//var_dump($model->attributes);
 			
 			if(isset($_POST['Girls']['portrait'])){
 					$model->image=CUploadedFile::getInstance($model,'portrait');

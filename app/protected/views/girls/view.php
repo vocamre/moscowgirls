@@ -37,7 +37,7 @@ $this->breadcrumbs=array(
 				<tr>
 					<td>Дата рождения</td>
 					<td>
-						<?php echo $model->day; ?>
+						<?php echo $model->day.'  '.$model->month.'  '.$model->year; ?> 
 					</td>
 				</tr>
 				<tr>

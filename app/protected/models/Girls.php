@@ -6,6 +6,8 @@
  * The followings are the available columns in table 'girls':
  * @property integer $id
  * @property string $name
+ * @property string $nationality
+ * @property string $registration
  * @property integer $day
  * @property integer $year
  * @property integer $month
@@ -22,6 +24,8 @@
  * @property string $qualities
  * @property string $hobby
  * @property string $purpose
+ * @property string $contracts
+ * @property string $links
  * @property string $demo
  * @property string $portrait
  * @property string $fulllengthportrait
@@ -30,6 +34,7 @@
 class Girls extends CActiveRecord
 {
 	public $image, $image2, $mp3;
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -56,18 +61,21 @@ class Girls extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, day, year, month, phone, email, height, weight, param1, param2, param3, marital, education, experience, qualities, hobby, purpose, demo, portrait, fulllengthportrait', 'required'),
+			array('name, nationality, registration, day, year, month, phone, email, height, weight, param1, param2, param3, marital, education, experience, qualities, hobby, purpose, contracts, links, demo, portrait, fulllengthportrait', 'required'),
 			array('day, year, month, rating', 'numerical', 'integerOnly'=>true),
 			array('height, weight, param1, param2, param3', 'numerical'),
-			array('name', 'length', 'max'=>50),
-			array('image, image2', 'file', 'types'=>'jpg, gif, png', 'maxSize'=>1024 * 1024 * 5),
-			array('mp3', 'file', 'types'=>'mp3', 'maxSize'=>1024 * 1024 * 15),
+			array('name, nationality', 'length', 'max'=>50),
+			array('registration', 'length', 'max'=>100),
 			array('phone', 'length', 'max'=>12),
+			array('email','email'),
 			array('email, education', 'length', 'max'=>30),
 			array('marital', 'length', 'max'=>10),
+			array('image, image2', 'file', 'types'=>'jpg, gif, png', 'maxSize'=>1024 * 1024 * 5),
+			array('mp3', 'file', 'types'=>'mp3', 'maxSize'=>1024 * 1024 * 15),
+			//array('demo, portrait, fulllengthportrait', 'length', 'max'=>200),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, name, day, year, month, phone, email, height, weight, param1, param2, param3, marital, education, experience, qualities, hobby, purpose, demo, portrait, fulllengthportrait, rating', 'safe', 'on'=>'search'),
+			array('id, name, nationality, registration, day, year, month, phone, email, height, weight, param1, param2, param3, marital, education, experience, qualities, hobby, purpose, contracts, links, demo, portrait, fulllengthportrait, rating', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -90,6 +98,8 @@ class Girls extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'name' => 'Name',
+			'nationality' => 'Nationality',
+			'registration' => 'Registration',
 			'day' => 'Day',
 			'year' => 'Year',
 			'month' => 'Month',
@@ -106,6 +116,8 @@ class Girls extends CActiveRecord
 			'qualities' => 'Qualities',
 			'hobby' => 'Hobby',
 			'purpose' => 'Purpose',
+			'contracts' => 'Contracts',
+			'links' => 'Links',
 			'demo' => 'Demo',
 			'portrait' => 'Portrait',
 			'fulllengthportrait' => 'Fulllengthportrait',
@@ -126,6 +138,8 @@ class Girls extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('name',$this->name,true);
+		$criteria->compare('nationality',$this->nationality,true);
+		$criteria->compare('registration',$this->registration,true);
 		$criteria->compare('day',$this->day);
 		$criteria->compare('year',$this->year);
 		$criteria->compare('month',$this->month);
@@ -142,6 +156,8 @@ class Girls extends CActiveRecord
 		$criteria->compare('qualities',$this->qualities,true);
 		$criteria->compare('hobby',$this->hobby,true);
 		$criteria->compare('purpose',$this->purpose,true);
+		$criteria->compare('contracts',$this->contracts,true);
+		$criteria->compare('links',$this->links,true);
 		$criteria->compare('demo',$this->demo,true);
 		$criteria->compare('portrait',$this->portrait,true);
 		$criteria->compare('fulllengthportrait',$this->fulllengthportrait,true);
