@@ -148,7 +148,14 @@ class GirlsController extends Controller
 					$model->mp3->saveAs($path3);
 				}
 				
-				
+				if($model->email){
+				$email = Yii::app()->email;
+					$email->from = 'no-reply@moscowgirls.biz';
+					$email->to = $model->email;
+					$email->subject = 'MoscowGirls';
+					$email->message = 'Здравствуйте, '.$model->name.'!<br> Ваша анкета успешно добавлена.';
+					$email->send();
+				}
 				
 				$this->redirect(array('view','id'=>$model->id));
 			}	
