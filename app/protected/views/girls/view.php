@@ -10,7 +10,7 @@ $this->breadcrumbs=array(
 	<div class="scroll-pane" style="padding-top:0px;">
 		<div class="cont-body" >
 			<center>
-			<a target="_blank" href="<?php echo substr($model->portrait,0,strrpos($model->portrait,".")).'_big.'.end(explode(".", $model->portrait)); ?>">
+			<a class="lightbox" href="<?php echo substr($model->portrait,0,strrpos($model->portrait,".")).'_big.'.end(explode(".", $model->portrait)); ?>">
 				<?php echo '<img width="200" src="'.$model->portrait.'" />'; ?>
 			</a>
 			</center>
@@ -146,7 +146,7 @@ $this->breadcrumbs=array(
 				<tr>
 					<td width="128">Портрет</td>
 					<td>
-						<a target="_blank" href="<?php echo substr($model->portrait,0,strrpos($model->portrait,".")).'_big.'.end(explode(".", $model->portrait)); ?>">
+						<a  class="lightbox" href="<?php echo substr($model->portrait,0,strrpos($model->portrait,".")).'_big.'.end(explode(".", $model->portrait)); ?>">
 						<?php echo '<img width="200" src="'.$model->portrait.'" />'; ?>
 						</a>
 					</td>
@@ -154,7 +154,7 @@ $this->breadcrumbs=array(
 				<tr>
 					<td width="128">Полный рост</td>
 					<td>
-					<a target="_blank" href="<?php echo substr($model->fulllengthportrait,0,strrpos($model->fulllengthportrait,".")).'_big.'.end(explode(".", $model->fulllengthportrait)); ?>">
+					<a  class="lightbox" href="<?php echo substr($model->fulllengthportrait,0,strrpos($model->fulllengthportrait,".")).'_big.'.end(explode(".", $model->fulllengthportrait)); ?>">
 						<?php echo '<img width="200" src="'.$model->fulllengthportrait.'" />'; ?>
 					</a>
 					</td>
