@@ -9,6 +9,25 @@ $this->menu=array(
 );
 ?>
 
+<script>
+$(document).ready(function(){
+
+$('.point').toggle(
+	function()
+		{	
+			$(this).children('input').attr('value',$(this).children('input').attr("id"));
+			$(this).removeClass("up");
+		}, 
+	function()
+		{
+			$(this).children('input').attr('value','');
+			$(this).addClass("up");
+		}	
+);
+});
+
+</script>
+
 <div class="cont-head">УЧАСТНИЦЫ</div>
 <div class="scroll-pane" style="padding-top:0px;">
 		<div class="cont-body">
@@ -16,13 +35,13 @@ $this->menu=array(
 			Отметьте звездочкой понравившихся участниц<br>
 			и нажмите кнопку ОБНОВИТЬ в конце списка!<br>
 			
-			
+			<form method="post" name="UpdRate" id="fmUpdRate">
 	<?php	foreach($dataProvider->data as $girl) {	?>
 			
 			<div class="g-item" style="height:115px;">
-				<div class="point up"> <?php echo $girl->name; ?>, <?php echo $girl->registration; ?></div>
+				<div class="<?php if($girl->rating==0) echo 'point up'; else echo 'pointed'; ?>" onclick=""> <?php echo $girl->name; ?>, <?php echo $girl->registration; ?> <input class="upinp" type="hidden" name="UpdRate[girl<?php echo $girl->id;?>]" id="<?php echo $girl->id;?>" value=""></div>
 				<div class="g-body">
-					<a target="_blank" href="<?php echo substr($girl->portrait,0,strrpos($girl->portrait,".")).'_big.'.end(explode(".", $girl->portrait)); ?>">
+					<a class="lightbox" href="<?php echo substr($girl->portrait,0,strrpos($girl->portrait,".")).'_big.'.end(explode(".", $girl->portrait)); ?>">
 					<div class="g-item-img"><div class="bord-img"></div>
 						<img src="<?php echo $girl->portrait; ?>" width="66"  border="0">
 					</div>
@@ -57,8 +76,8 @@ $this->menu=array(
 		<?php } ?>	
 			
 		<div class="pagerdiv"></div>
-		<div class="save"></div>
-			
+		<div class="save" onclick="$('#fmUpdRate').submit()"></div>
+			</form>
 		</div>
 		</div>
 		<div class="cont-foot"></div>

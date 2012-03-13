@@ -5183,3 +5183,86 @@ in Z:\home\mg\www\app\index.php (13)
 2012/03/10 17:06:06 [warning] [application] Не удалось присвоить небезопасный атрибут "fulllengthportrait" класса "Girls".
 in Z:\home\mg\www\app\protected\controllers\GirlsController.php (71)
 in Z:\home\mg\www\app\index.php (13)
+2012/03/13 22:05:35 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/14 00:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in Z:\home\mg\www\app\protected\controllers\GirlsController.php:261
+Stack trace:
+#0 Z:\home\mg\www\app\protected\controllers\GirlsController.php(224): GirlsController->loadModel('')
+#1 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): GirlsController->actionIndex()
+#2 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#9 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('')
+#11 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls')
+#12 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/app/index.php?r=girls
+HTTP_REFERER=http://mg/app/index.php?r=girls
+---
+2012/03/14 00:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in Z:\home\mg\www\app\protected\controllers\GirlsController.php:262
+Stack trace:
+#0 Z:\home\mg\www\app\protected\controllers\GirlsController.php(224): GirlsController->loadModel('')
+#1 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): GirlsController->actionIndex()
+#2 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#9 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('')
+#11 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls')
+#12 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/app/index.php?r=girls
+HTTP_REFERER=http://mg/app/index.php?r=girls
+---
+2012/03/14 00:27:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in Z:\home\mg\www\app\protected\controllers\GirlsController.php:263
+Stack trace:
+#0 Z:\home\mg\www\app\protected\controllers\GirlsController.php(225): GirlsController->loadModel('')
+#1 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): GirlsController->actionIndex()
+#2 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#9 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('')
+#11 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls')
+#12 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/app/index.php?r=girls
+HTTP_REFERER=http://mg/app/index.php?r=girls
+---
+2012/03/14 00:27:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in Z:\home\mg\www\app\protected\controllers\GirlsController.php:264
+Stack trace:
+#0 Z:\home\mg\www\app\protected\controllers\GirlsController.php(226): GirlsController->loadModel('')
+#1 Z:\home\mg\www\framework\web\actions\CInlineAction.php(50): GirlsController->actionIndex()
+#2 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#9 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('')
+#11 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls')
+#12 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/app/index.php?r=girls
+HTTP_REFERER=http://mg/app/index.php?r=girls
+---

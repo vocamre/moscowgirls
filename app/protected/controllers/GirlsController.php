@@ -215,6 +215,31 @@ class GirlsController extends Controller
 	 */
 	public function actionIndex()
 	{
+		
+		if(isset($_POST['UpdRate']))
+		{
+		
+			$updGirls=$_POST['UpdRate'];
+			
+			foreach ($updGirls as $girl){
+			if ($girl!==''){
+					$model=$this->loadModel($girl);
+					$model->rating=$model->rating+1;
+					if($model->save(false)) {
+							if($model->email){
+									$email = Yii::app()->email;
+									$email->from = 'no-reply@moscowgirls.biz';
+									$email->to = $model->email;
+									$email->subject = 'MoscowGirls';
+									$email->message = 'Здравствуйте!<br>Благодарим Вас за участие в нашем кастинге и хотим сообщить Вам, что мы готовы пригласить Вас принять участие в следующем этапе Кастинга.<br>Для уточнение времени и места с Вами свяжется наш Администратор, если по каким-то причинам этого не произошло до «20» апреля, просим Вас самостоятельно связаться с нами.<br>Спасибо и удачи Вам в следующем этапе!';
+									$email->send();
+							}
+					}
+				}
+			}
+		}
+		
+		
 		$dataProvider=new CActiveDataProvider('Girls',array('pagination'=>array('pageSize'=>'99999999999')));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,

@@ -54,9 +54,10 @@ img{
 .g-item {padding:17px 0 0px 0;}
 .g-item .bord-img {width:76px; height:76px; background:url('../images/pop.png') no-repeat; position:absolute;}
 .g-item  .g-item-img img {margin:5px 0 0 5px;}
-.g-item .point {background:url('../images/st.png') no-repeat top left; width:377px; height:20px; font-size:12px; color:#000; font-weight:bold; padding-top:6px; margin-bottom:10px;}
+.g-item .point {background:url('../images/st.png') no-repeat top left; width:377px; height:20px; font-size:12px; color:#000; font-weight:bold; padding-top:6px; margin-bottom:10px; cursor: pointer;}
 .g-item .point.up{background-position:0px 0px;}
 .g-item .point.up{background-position:0px -26px;}
+.g-item .pointed {background:url('../images/st.png') no-repeat top left; width:377px; height:20px; font-size:12px; color:#000; font-weight:bold; padding-top:6px; margin-bottom:10px; cursor: pointer;}
 .g-item .g-item-img {float:left; width:76px; margin:0 10px 0 0;}
 .g-item .g-item-text {float:left; width:291px;}
 .g-item .g-item-text a {color:#000;}
@@ -78,7 +79,7 @@ img{
 .tab input.file {border:1px solid #e3e3e3; padding:0px;}
 .tab tr td {padding-bottom:7px; }
 .tab tr td.cv {vertical-align:top;}
-.send-b {width:141px; height:39px; background:url('../images/send_b.png') no-repeat; border:none;}
+.send-b {width:141px; height:39px; background:url('../images/send_b.png') no-repeat; border:none; cursor:pointer;}
 .send-f {border-top:1px solid #fbca32; padding:18px 0 0 0;}
 
 .scroll-pane {overflow:auto; height:350px;}
@@ -113,4 +114,5 @@ a.logo-index {display:block; width:370px; height:184px; margin:0 auto; cursor:po
 	margin-left: 150px;
 	margin-top: -35px;
 }
+
 a.desc-us {position:relative;}
