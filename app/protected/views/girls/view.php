@@ -142,7 +142,7 @@ $this->breadcrumbs=array(
 				</tr>
 			</table>
 			<div class="txt">Фотографии</div>
-			<table class="tab" cellspacing="0" cellpadding="0" border="0">
+			<table class="tab" cellspacing="0" cellpadding="0" border="0" style="height:400px;">
 				<tr>
 					<td width="128">Портрет</td>
 					<td>
@@ -169,6 +169,7 @@ $this->breadcrumbs=array(
 				
 				*/?>
 			</table>
+			<div class="clear"></div>
 		</div>
 	</div>
 	<div class="cont-foot"></div>
