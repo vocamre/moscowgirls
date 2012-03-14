@@ -61,7 +61,7 @@
 	<a href="http://wowmoscow.net/" class="mosc"></a>
 	<a href="http://kremlinmultimedia.com/" class="krem"></a>
 	<a href="http://www.iconsofrussia.com" class="icon"></a>
-	<a href="http://www.sbrf.ru" class="bank"></a>
+	
 	
 	<span class="kont">Позвонить нам: +7(495) 488-59-80<br>Написать: <a href="mailto:info@wowmusic.biz">info@wowmusic.biz</a></span>
 	<div class="clear"></a>

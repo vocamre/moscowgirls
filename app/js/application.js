@@ -1,9 +1,9 @@
 $(function()
 {
-	$('.scroll-pane').jScrollPane({
+	/*$('.scroll-pane').jScrollPane({
 		verticalDragMinHeight: 29,
 		verticalDragMaxHeight: 29
-	});
+	});*/
 	
 	$('a.lightbox').lightBox(); 
 

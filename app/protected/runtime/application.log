@@ -5266,3 +5266,6 @@ Stack trace:
 REQUEST_URI=/app/index.php?r=girls
 HTTP_REFERER=http://mg/app/index.php?r=girls
 ---
+2012/03/14 21:48:23 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (76)
+in P:\home\mosc.dv\www\app\index.php (13)
