@@ -9,6 +9,7 @@ $this->breadcrumbs=array(
 <div class="cont-head anketa">АНКЕТА УЧАСТНИЦЫ</div>
 	<div class="scroll-pane" style="padding-top:0px;">
 		<div class="cont-body" >
+		<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=girls">Назад к списку девушек</a><br><br>
 			<center>
 			<a class="lightbox" href="<?php echo substr($model->portrait,0,strrpos($model->portrait,".")).'_big.'.end(explode(".", $model->portrait)); ?>">
 				<?php echo '<img width="200" src="'.$model->portrait.'" />'; ?>
@@ -170,6 +171,7 @@ $this->breadcrumbs=array(
 				*/?>
 			</table>
 			<div class="clear"></div>
+			<br><br><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=girls">Назад к списку девушек</a><br><br>
 		</div>
 	</div>
 	<div class="cont-foot"></div>

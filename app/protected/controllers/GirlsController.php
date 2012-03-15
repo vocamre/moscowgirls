@@ -27,8 +27,8 @@ class GirlsController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
-				'users'=>array('*'),
+				'actions'=>array('index','view','knockout'),
+				'users'=>array('admin1','admin2','admin3','admin4','admin5','admin6','admin7','admin8','admin9','admin10'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
@@ -157,7 +157,7 @@ class GirlsController extends Controller
 					$email->send();
 				}
 				
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(Yii::app()->request->baseUrl);
 			}	
 		}
 
@@ -166,6 +166,29 @@ class GirlsController extends Controller
 		));
 	}
 
+	
+	public function actionKnockout()
+	{
+		$models=Girls::model()->findAll();
+
+		foreach ($models as $model){
+				if ($model->rating==0){
+						if($model->email){
+								$email = Yii::app()->email;
+									$email->from = 'no-reply@moscowgirls.biz';
+									$email->to = $model->email;
+									$email->subject = 'MoscowGirls';
+									$email->message = 'Здравствуйте!<br>Благодарим Вас за участие в нашем кастинге, но, к сожалению, на данный момент мы не готовы пригласить Вас к участию в проектe Mosсow girls.<br>Мы верим, что у Вас все получится, главное не сдаваться!<br><br><br><br><br><br><br>------<br>С уважением,<br>Администратор группы Moscow girls.';
+									$email->send();
+						}
+				}	
+				
+		}
+		$this->redirect(array('index',));
+		
+	}	
+	
+	
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.

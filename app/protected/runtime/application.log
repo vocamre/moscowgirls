@@ -5269,3 +5269,36 @@ HTTP_REFERER=http://mg/app/index.php?r=girls
 2012/03/14 21:48:23 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
 in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (76)
 in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/16 00:37:44 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CHttpRequest.returnUrl".' in Z:\home\mg\www\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\mg\www\app\protected\views\girls\view.php(12): CComponent->__get('returnUrl')
+#1 Z:\home\mg\www\framework\web\CBaseController.php(127): require('Z:\home\mg\www\...')
+#2 Z:\home\mg\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\mg\www\...', Array, true)
+#3 Z:\home\mg\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\mg\www\...', Array, true)
+#4 Z:\home\mg\www\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#5 Z:\home\mg\www\app\protected\controllers\GirlsController.php(55): CController->render('view', Array)
+#6 [internal function]: GirlsController->actionView('110')
+#7 Z:\home\mg\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(GirlsController), Array)
+#8 Z:\home\mg\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(GirlsController), Object(ReflectionMethod), Array)
+#9 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#16 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('view')
+#18 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('girls/view')
+#19 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/app/index.php?r=girls/view&id=110
+HTTP_REFERER=http://mg/app/index.php?r=girls
+---
+2012/03/16 00:41:43 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/16 00:46:19 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
