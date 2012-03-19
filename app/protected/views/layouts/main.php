@@ -33,16 +33,15 @@
 <div class="bigb">
 <div id="stage" class="EDGE-3752019"><a href="/" class="logo-index"></a></div>
 <div class="container index" id="page">
-
+<?php $url = $_SERVER['REQUEST_URI']; ?>
 <div class="main">
 	<ul class="menu">
-		<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/page&view=about" class="m1"></a></li>
-		<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/casting" class="m2"></a></li>
-		<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/page&view=jury" class="m3"></a></li>
+		<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/page&view=about" class="m1 <? if($url == "/app/index.php?r=site/page&view=about") {echo 'active';}?>"></a></li>
+		<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/casting" class="m2 <? if($url == "/app/index.php?r=site/casting") {echo 'active';}?>"></a></li>
+		<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/page&view=jury" class="m3 <? if($url == "/app/index.php?r=site/page&view=jury") {echo 'active';}?>"></a></li>
 		<div class="clear"></div>
 	</ul>
 	<div class="content">
-
 		<?php echo $content; ?>
 	
 	</div>

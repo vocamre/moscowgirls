@@ -24,9 +24,9 @@ img{
 .menu li .m1 {display:inline-block; width:175px; height:56px; background:url('../images/menu.png') no-repeat top left;}
 .menu li .m2 {display:inline-block; width:169px; height:56px; background:url('../images/menu.png') no-repeat -175px 0px;}
 .menu li .m3 {display:inline-block; width:181px; height:56px; background:url('../images/menu.png') no-repeat -344px 0px;}
-.menu li .m1:active {background-position:0px -117px;}
-.menu li .m2:active {background-position:-175px -117px;}
-.menu li .m3:active {background-position:-344px -117px;}
+.menu li .m1.active {background-position:0px -117px;}
+.menu li .m2.active {background-position:-175px -117px;}
+.menu li .m3.active {background-position:-344px -117px;}
 .menu li .m1:hover {background-position:0px -59px;}
 .menu li .m2:hover {background-position:-175px -59px;}
 .menu li .m3:hover {background-position:-344px -59px;}
@@ -114,5 +114,4 @@ a.logo-index {display:block; width:370px; height:184px; margin:0 auto; cursor:po
 #PreAnketa_verifyCode{
 	margin-top: -5px;
 }
-
 a.desc-us {position:relative;}

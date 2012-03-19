@@ -5305,3 +5305,6 @@ in Z:\home\mg\www\app\index.php (13)
 2012/03/16 19:00:25 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
 in P:\home\mosc.dv\www\app\protected\controllers\SiteController.php (76)
 in P:\home\mosc.dv\www\app\index.php (13)
+2012/03/20 01:02:15 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
