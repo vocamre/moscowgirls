@@ -38,7 +38,7 @@
 		<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=site/page&view=jury" class="m3"></a></li>
 		<div class="clear"></div>
 	</ul>
-	<div class="content">
+	<div class="content" style="height:520px;">
 
 	
 	
