@@ -117,7 +117,10 @@ div.errorMessage{
 }
 a.logo-index {display:block; width:370px; height:184px; margin:0 auto; cursor:pointer; position:relative; z-index:9999;}
 #PreAnketa_verifyCode{
-	margin-top: -5px;
+	vertical-align: middle;
+}
+#yw0{
+	vertical-align: middle;
 }
 a.desc-us {position:relative;}
 

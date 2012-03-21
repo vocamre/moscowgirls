@@ -5327,3 +5327,9 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/app/index.php?r=girls/logout
 ---
+2012/03/21 23:45:03 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/22 00:27:09 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
+in Z:\home\mg\www\app\index.php (13)

@@ -46,8 +46,9 @@
 	
 	</div>
 	<div class="soc">
-		<script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
-		<center><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,odnoklassniki"></div> </center>
+		<center><div class="share42init"></div></center>
+			<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/socialicons/share42.js"></script>
+			<script type="text/javascript">share42('<?php echo Yii::app()->request->baseUrl; ?>/js/socialicons/')</script>
 	</div>
 </div>
 <div class="footer">
