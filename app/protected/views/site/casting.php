@@ -24,7 +24,7 @@
 
 			
 			<div class="ch">
-				<input  name="PreAnketa[fl]" type="checkbox" value="111">&nbsp; C правилами участия ознакомлена.
+				<input class="btn-ank-ch"  name="PreAnketa[fl]" type="checkbox" value="111">&nbsp; C правилами участия ознакомлена.
 			</div>
 			Для получения доступа к анкете введите цифры:<br><br>
 			
@@ -36,7 +36,7 @@
 			<br>
 			
 			
-			<div style="height:40px;"><center><input type="submit" class="btn-ank" value=""></center></div>
+			<div style="height:40px;"><center><input type="submit" class="btn-ank no-act" value=""></center></div>
 			<?php $this->endWidget(); ?>
 			
 		</div>

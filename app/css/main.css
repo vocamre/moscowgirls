@@ -38,7 +38,7 @@ img{
 .content .cont-foot {width:526px; height:35px; background:url('../images/foot.png') no-repeat -8px 0px;}
 .content .star {background:url('../images/bg_re.png') repeat-x bottom left; font-size:16px; color:#000; text-align:center; font-weight:bold; margin-bottom:16px; padding-bottom:4px;}
 .prefooter .yel{color:#f1be00; font-size:15px;}
-.prefooter .wh{color:#fff; margin-right:37px;}
+.prefooter .wh{color:#fff; margin-right:54px;}
 .prefooter {margin-bottom:13px;}
 .soc {margin-top:18px;}
 .footer {width:870px; margin:0 auto; margin-top:10px; margin-bottom:15px;}
@@ -51,6 +51,7 @@ img{
 
 .footer .kont {float:right; color:#fff;}
 .footer .kont a {clear:both; float:none; color:#fff;}
+.footer .kont a:hover {text-decoration:none;}
 
 .g-item {padding:17px 0 0px 0; width:378px; margin:0 auto;}
 .g-item .bord-img {width:76px; height:76px; background:url('../images/pop.png') no-repeat; position:absolute;}
@@ -64,24 +65,27 @@ img{
 .g-item .g-item-text a {color:#000;}
 .player { margin-top:-13px;}
 
-.content .save {width:141px; height:40px; background:url('../images/save.png') no-repeat top left; cursor:pointer; margin:0 auto; margin-top:24px;}
-.content .save:hover {background-position:0px -80px;}
-.content .save:active {background-position:0px -40px;}
+.content .save {width:175px; height:46px; background:url('../images/save.png') no-repeat top left; cursor:pointer; margin:0 auto; margin-top:24px;}
+.content .save:hover {background-position:0px -51px;}
+.content .save:active {background-position:0px -102px;}
 /*.content .anketa {font-size:34px; color:#fff; padding-top:6px; height:44px;}*/
 .content .ank-top {color:#666766;}
 .content .ank-top span.t {font-size:16px;}
 .content .ank-top span.m {font-size:10px;}
 .content .ank-top span.b {font-size:11px;}
 .content  .txt {color:#000; font-weight:bold;  height:23px; background:url('../images/txt2.png') top left repeat-x; padding-top:4px; margin-bottom:13px;}
-.tab input {border:1px solid #e3e3e3; background:#fff; width:238px; height:23px; padding:0px 7px;}
+.tab input, .specinp input {border:1px solid #e3e3e3; background:#fff; width:238px; height:23px; padding:0px 7px;}
 .tab select {border:1px solid #e3e3e3; background:#fff; width:125px; height:23px; padding:0px 0 0 7px;}
 .tab textarea {border:1px solid #e3e3e3; background:#fff; width:238px; height:23px; padding:0px 7px 0 7px; resize:none; height:75px;}
 .tab input.min {width:32px;}
 .tab input.file {border:1px solid #e3e3e3; padding:0px;}
 .tab tr td {padding-bottom:7px; }
 .tab tr td.cv {vertical-align:top;}
-.send-b {width:141px; height:39px; background:url('../images/send_b.png') no-repeat; border:none; cursor:pointer;}
+.send-b {width:176px; height:46px; background:url('../images/btn_pass.png') no-repeat; border:none; cursor:pointer;}
+.send-b:hover {background-position:0px -51px;}
+.send-b:active {background-position:0px -102px;}
 .send-f {border-top:1px solid #fbca32; padding:18px 0 0 0;}
+.send-b.no-act {background-position:0px -153px;}
 
 .scroll-pane {/*overflow:auto; height:350px;*/}
 
@@ -96,9 +100,10 @@ img{
 .kast-top, .content .star {background:url('../images/bg_re.png') repeat-x bottom left; font-size:16px; color:#000; text-align:center; font-weight:bold; margin-bottom:16px; padding-bottom:4px;}
 .ch {width:381px; height:21px; background:url('../images/bg_ch.png') no-repeat top left; padding:5px 0 0 22px; margin:14px 0;}
 .ch-bt {position:absolute; margin:2px 0 0 -13px;}
-.btn-ank {width:141px; height:40px; display:inline-block; background:url('../images/btn_ank.png') no-repeat top left; cursor:pointer; border:none;}
-.btn-ank:active {background-position:0px -40px;}
-.btn-ank:hover {background-position:0px -80px;}
+.btn-ank {width:180px; height:46px; display:inline-block; background:url('../images/btn_ank.png') no-repeat top left; cursor:pointer; border:none;}
+.btn-ank:active {background-position:0px -102px;}
+.btn-ank:hover {background-position:0px -51px;}
+.btn-ank.no-act {background-position:0px -153px;}
 /*=========================================*/
 .pagerdiv{
 	width:250px; 
@@ -115,3 +120,11 @@ a.logo-index {display:block; width:370px; height:184px; margin:0 auto; cursor:po
 	margin-top: -5px;
 }
 a.desc-us {position:relative;}
+
+.errorSummary {color:red; font-size:12px;}
+.btn-enter {border:none; width:125px; height:46px; background:url('../images/btn_enter.png') no-repeat top left;}
+.btn-enter.no-act {background-position:0px -153px;}
+.btn-enter:hover {background-position:0px -51px;}
+.btn-enter:active {background-position:0px -102px;}
+
+.form.admin {width:209px; margin:0 auto;}

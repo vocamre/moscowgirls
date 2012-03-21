@@ -34,14 +34,6 @@ Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function def
 
 
 
-Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 12776, function(sym, e) {
-// play the timeline from the given position (ms or label)
-sym.play("loop_01");
-// insert code here
-
-});
-//Edge binding end
-
 
 
 

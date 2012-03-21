@@ -169,13 +169,13 @@
 				<tr>
 					<td width="128">Полный рост</td>
 					<td>
-						<?php echo $form->fileField($model,'fulllengthportrait',array('class'=>'file')); ?>
+						<?php echo $form->fileField($model,'fulllengthportrait',array('class'=>'file last-file')); ?>
 					</td>
 				</tr>
 			</table>
 			<div class="send-f">
 				<center>
-					<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save', array('class'=>'send-b', 'value'=>'')); ?>
+					<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save', array('class'=>'send-b no-act', 'value'=>'')); ?>
 				</center>
 			</div>
 

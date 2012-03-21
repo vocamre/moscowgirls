@@ -9,9 +9,10 @@ $this->breadcrumbs=array(
 		<div class="cont-body" style="">
 
 <br>
-<p>Пожалуйста введите логин и пароль:</p>
 
-<div class="form">
+<center><p>Пожалуйста введите логин и пароль:</p></center>
+<div class="form admin ">
+
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'login-form',
 	'enableClientValidation'=>true,
@@ -19,30 +20,28 @@ $this->breadcrumbs=array(
 		'validateOnSubmit'=>true,
 	),
 )); ?>
-
-	<p class="note">Поля, отмеченные <span class="required">*</span> обязательны.</p>
 <br>
-	<div class="row" style="margin-bottom:5px;">
+	<div class="row specinp" style="margin-bottom:5px;">
 		Логин:&nbsp;&nbsp;&nbsp;&nbsp;
 		<?php echo $form->textField($model,'username'); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>
 	
-	<div class="row">
+	<div class="row specinp">
 		Пароль:&nbsp;
 		<?php echo $form->passwordField($model,'password'); ?>
-		<?php echo $form->error($model,'password'); ?>
+		<?php echo $form->error($model,'password', array('class'=>'last_fileld_en')); ?>
 		
 	</div>
 <br>
 	<div class="row rememberMe">
-		<?php echo $form->checkBox($model,'rememberMe'); ?>
+		<center><?php echo $form->checkBox($model,'rememberMe'); ?>
 		Запомнить меня
-		<?php echo $form->error($model,'rememberMe'); ?>
+		<?php echo $form->error($model,'rememberMe'); ?></center>
 	</div>
-<br><br>
+<br>
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Войти'); ?>
+		<center><?php echo CHtml::submitButton(' ', array('class'=>'btn-enter')); ?></center>
 	</div>
 
 <?php $this->endWidget(); ?>
