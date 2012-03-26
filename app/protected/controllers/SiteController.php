@@ -70,6 +70,7 @@ class SiteController extends Controller
 	
 	public function actionCasting()
 	{
+		$page=Pages::model()->findByPk(2);
 		$model=new PreAnketa;
 		if(isset($_POST['PreAnketa']))
 		{
@@ -86,8 +87,10 @@ class SiteController extends Controller
 			else $model->er='Вы ввели неверный код. Пожалуйста введите заново<br>';
 		}	
 		
-		$this->render('casting',array('model'=>$model));
+		$this->render('casting',array('model'=>$model,'page'=>$page));
 	}
+	
+	
 
 	/**
 	 * Displays the login page
@@ -109,7 +112,7 @@ class SiteController extends Controller
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->request->baseUrl.'/index.php?r=girls');
+				$this->redirect(Yii::app()->request->baseUrl.'/index.php?r=pages/admin');
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model));

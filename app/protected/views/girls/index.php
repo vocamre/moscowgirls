@@ -34,7 +34,8 @@ $('.point').toggle(
 			<b>Уважаемые члены жюри!</b><br>
 			Отметьте звездочкой понравившихся участниц<br>
 			и нажмите кнопку ОБНОВИТЬ в конце списка!<br>
-			<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=girls/knockout">Отправить сообщения об отказе</a>
+			<a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php?r=girls/knockout">Отправить сообщения об отказе</a><br>
+			<a href="<?php echo Yii::app()->request->baseUrl.'/index.php?r=pages/admin'; ?>">Назад в панель администратора</a>
 			<form method="post" name="UpdRate" id="fmUpdRate">
 	<?php	foreach($dataProvider->data as $girl) {	?>
 			

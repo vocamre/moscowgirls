@@ -5333,3 +5333,47 @@ in Z:\home\mg\www\app\index.php (13)
 2012/03/22 00:27:09 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
 in Z:\home\mg\www\app\protected\controllers\SiteController.php (76)
 in Z:\home\mg\www\app\index.php (13)
+2012/03/26 22:54:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in Z:\home\mg\www\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 Z:\home\mg\www\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), '?? ?????? ?????...')
+#1 Z:\home\mg\www\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#6 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('pages/admin')
+#9 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/app/index.php?r=pages/admin
+---
+2012/03/26 23:15:03 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
+2012/03/26 23:54:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in Z:\home\mg\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(271): CController->missingAction('admin')
+#1 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('admin')
+#2 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/admin')
+#3 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/index.php?r=site/admin
+HTTP_REFERER=http://mg/app/index.php?r=pages/update&id=1
+---
+2012/03/26 23:54:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admin".' in Z:\home\mg\www\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\mg\www\framework\web\CController.php(271): CController->missingAction('admin')
+#1 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('admin')
+#2 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('site/admin')
+#3 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/app/index.php?r=site/admin
+HTTP_REFERER=http://mg/app/index.php?r=pages/update&id=1
+---
+2012/03/27 00:02:40 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
+in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
+in Z:\home\mg\www\app\index.php (13)
