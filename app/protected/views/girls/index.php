@@ -43,7 +43,7 @@ $('.point').toggle(
 				<div class="g-body">
 					<a class="lightbox" href="<?php echo substr($girl->portrait,0,strrpos($girl->portrait,".")).'_big.'.end(explode(".", $girl->portrait)); ?>">
 					<div class="g-item-img"><div class="bord-img"></div>
-						<img src="<?php echo $girl->portrait; ?>" width="66"  border="0">
+						<div class="pre-img-ava"><img src="<?php echo $girl->portrait; ?>" width="66"  border="0"></div>
 					</div>
 					</a>
 					<div class="g-item-text">

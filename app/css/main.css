@@ -131,3 +131,9 @@ a.desc-us {position:relative;}
 .btn-enter:active {background-position:0px -102px;}
 
 .form.admin {width:209px; margin:0 auto;}
+.btn-popup {color:#940902; cursor:pointer;}
+.btn-popup:hover {text-decoration:underline;}
+.popup {background:url('../images/bg_pop.png'); z-index:100; position:absolute; width:100%; height:100%;}
+.popup-mes {display:none;background:#fff; z-index:101; border-radius:15px; border:5px solid #dadada; width:439px; padding:10px; position:absolute;}
+.popup-mes span {display:inline-block; float:right; cursor:pointer; font-size:11px;}
+.pre-img-ava {width:71px; height:71px; overflow:hidden;}
