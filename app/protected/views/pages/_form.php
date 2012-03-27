@@ -18,8 +18,21 @@
 		<?php echo $form->error($model,'name'); ?>
 	</div>
 	*/?>
-
+	
 	<div class="row">
+		<?php echo $form->labelEx($model,'title'); ?>
+		<?php echo $form->textField($model,'title',array('size'=>72)); ?>
+		<?php echo $form->error($model,'title'); ?>
+	</div>
+	<br>
+	<div class="row">
+		<?php echo $form->labelEx($model,'description'); ?>
+		<?php echo $form->textArea($model,'description',array('rows'=>2, 'cols'=>56)); ?>
+		<?php echo $form->error($model,'description'); ?>
+	</div>
+	<br>
+	<div class="row">
+		<?php echo $form->labelEx($model,'content'); ?>
 		<?php echo $form->textArea($model,'content',array('rows'=>25, 'cols'=>56)); ?>
 		<?php echo $form->error($model,'content'); ?>
 	</div>

@@ -54,7 +54,7 @@
 <div class="footer">
 	<div class="prefooter">
 		<span class="fll yel">Партнеры проекта</span>
-		<span class="flr wh">&copy; 2012 Kremlin Multimedia</span>
+		<span class="flr wh">&copy; 2012 Moscow Girls</span>
 		<div class="clear"></div>
 	</div>
 	<a href="/" class="mini"></a>
@@ -63,7 +63,7 @@
 	<a href="http://www.iconsofrussia.com" class="icon"></a>
 	
 	
-	<span class="kont">Позвонить нам: +7(495) 488-59-80<br>Написать: <a href="mailto:info@wowmusic.biz">info@wowmusic.biz</a></span>
+	<span class="kont">Позвонить: 8(495) 968-951-85-21<br>Написать: <a href="mailto:info@moscowgirls.biz">info@moscowgirls.biz</a></span>
 	<div class="clear"></a>
 </div>
 	<div class="clear"></div>

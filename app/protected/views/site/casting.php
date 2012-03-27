@@ -1,3 +1,7 @@
+<?php 
+	$this->pageTitle=$page->title; 
+	Yii::app()->clientScript->registerMetaTag($page->description, 'Description');
+?>
 <div class="cont-head">КАСТИНГ</div>
 <div class="scroll-pane">
 		<div class="cont-body">

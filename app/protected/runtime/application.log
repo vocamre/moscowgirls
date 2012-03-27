@@ -5377,3 +5377,99 @@ HTTP_REFERER=http://mg/app/index.php?r=pages/update&id=1
 2012/03/27 00:02:40 [warning] [application] Не удалось присвоить небезопасный атрибут "fl" класса "PreAnketa".
 in Z:\home\mg\www\app\protected\controllers\SiteController.php (77)
 in Z:\home\mg\www\app\index.php (13)
+2012/03/28 00:45:47 [error] [exception.CException] exception 'CException' with message 'В классе CActiveForm и его поведениях не найден метод или замыкание с именем "input".' in Z:\home\mg\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\mg\www\app\protected\views\pages\_form.php(23): CComponent->__call('input', Array)
+#1 Z:\home\mg\www\app\protected\views\pages\_form.php(23): CActiveForm->input(Object(Pages), 'title', Array)
+#2 Z:\home\mg\www\framework\web\CBaseController.php(127): require('Z:\home\mg\www\...')
+#3 Z:\home\mg\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\mg\www\...', Array, true)
+#4 Z:\home\mg\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\mg\www\...', Array, true)
+#5 Z:\home\mg\www\app\protected\views\pages\update.php(5): CController->renderPartial('_form', Array)
+#6 Z:\home\mg\www\framework\web\CBaseController.php(127): require('Z:\home\mg\www\...')
+#7 Z:\home\mg\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\mg\www\...', Array, true)
+#8 Z:\home\mg\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\mg\www\...', Array, true)
+#9 Z:\home\mg\www\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#10 Z:\home\mg\www\app\protected\controllers\PagesController.php(102): CController->render('update', Array)
+#11 [internal function]: PagesController->actionUpdate('1')
+#12 Z:\home\mg\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#13 Z:\home\mg\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#14 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#21 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('update')
+#23 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('pages/update')
+#24 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/app/index.php?r=pages/update&id=1
+HTTP_REFERER=http://mg/app/index.php?r=pages/admin
+---
+2012/03/28 00:48:20 [error] [exception.CException] exception 'CException' with message 'В классе CActiveForm и его поведениях не найден метод или замыкание с именем "input".' in Z:\home\mg\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\mg\www\app\protected\views\pages\_form.php(23): CComponent->__call('input', Array)
+#1 Z:\home\mg\www\app\protected\views\pages\_form.php(23): CActiveForm->input(Object(Pages), 'title', Array)
+#2 Z:\home\mg\www\framework\web\CBaseController.php(127): require('Z:\home\mg\www\...')
+#3 Z:\home\mg\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\mg\www\...', Array, true)
+#4 Z:\home\mg\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\mg\www\...', Array, true)
+#5 Z:\home\mg\www\app\protected\views\pages\update.php(5): CController->renderPartial('_form', Array)
+#6 Z:\home\mg\www\framework\web\CBaseController.php(127): require('Z:\home\mg\www\...')
+#7 Z:\home\mg\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\mg\www\...', Array, true)
+#8 Z:\home\mg\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\mg\www\...', Array, true)
+#9 Z:\home\mg\www\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#10 Z:\home\mg\www\app\protected\controllers\PagesController.php(102): CController->render('update', Array)
+#11 [internal function]: PagesController->actionUpdate('1')
+#12 Z:\home\mg\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#13 Z:\home\mg\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#14 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#21 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('update')
+#23 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('pages/update')
+#24 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/app/index.php?r=pages/update&id=1
+HTTP_REFERER=http://mg/app/index.php?r=pages/admin
+---
+2012/03/28 00:48:22 [error] [exception.CException] exception 'CException' with message 'В классе CActiveForm и его поведениях не найден метод или замыкание с именем "input".' in Z:\home\mg\www\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\mg\www\app\protected\views\pages\_form.php(23): CComponent->__call('input', Array)
+#1 Z:\home\mg\www\app\protected\views\pages\_form.php(23): CActiveForm->input(Object(Pages), 'title', Array)
+#2 Z:\home\mg\www\framework\web\CBaseController.php(127): require('Z:\home\mg\www\...')
+#3 Z:\home\mg\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\mg\www\...', Array, true)
+#4 Z:\home\mg\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\mg\www\...', Array, true)
+#5 Z:\home\mg\www\app\protected\views\pages\update.php(5): CController->renderPartial('_form', Array)
+#6 Z:\home\mg\www\framework\web\CBaseController.php(127): require('Z:\home\mg\www\...')
+#7 Z:\home\mg\www\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\mg\www\...', Array, true)
+#8 Z:\home\mg\www\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\mg\www\...', Array, true)
+#9 Z:\home\mg\www\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#10 Z:\home\mg\www\app\protected\controllers\PagesController.php(102): CController->render('update', Array)
+#11 [internal function]: PagesController->actionUpdate('1')
+#12 Z:\home\mg\www\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#13 Z:\home\mg\www\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PagesController), Object(ReflectionMethod), Array)
+#14 Z:\home\mg\www\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 Z:\home\mg\www\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 Z:\home\mg\www\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 Z:\home\mg\www\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 Z:\home\mg\www\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 Z:\home\mg\www\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 Z:\home\mg\www\framework\web\CController.php(292): CFilterChain->run()
+#21 Z:\home\mg\www\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 Z:\home\mg\www\framework\web\CWebApplication.php(276): CController->run('update')
+#23 Z:\home\mg\www\framework\web\CWebApplication.php(135): CWebApplication->runController('pages/update')
+#24 Z:\home\mg\www\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 Z:\home\mg\www\app\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/app/index.php?r=pages/update&id=1
+HTTP_REFERER=http://mg/app/index.php?r=pages/admin
+---

@@ -175,7 +175,7 @@ class GirlsController extends Controller
 				if ($model->rating==0){
 						if($model->email){
 								$email = Yii::app()->email;
-									$email->from = 'no-reply@moscowgirls.biz';
+									$email->from = 'info@moscowgirls.biz';
 									$email->to = $model->email;
 									$email->subject = 'MoscowGirls';
 									$email->message = 'Здравствуйте!<br>Благодарим Вас за участие в нашем кастинге, но, к сожалению, на данный момент мы не готовы пригласить Вас к участию в проектe Mosсow girls.<br>Мы верим, что у Вас все получится, главное не сдаваться!<br><br><br><br><br><br><br>------<br>С уважением,<br>Администратор группы Moscow girls.';
@@ -251,7 +251,7 @@ class GirlsController extends Controller
 					if($model->save(false)) {
 							if($model->email){
 									$email = Yii::app()->email;
-									$email->from = 'no-reply@moscowgirls.biz';
+									$email->from = 'info@moscowgirls.biz';
 									$email->to = $model->email;
 									$email->subject = 'MoscowGirls';
 									$email->message = 'Здравствуйте!<br>Благодарим Вас за участие в нашем кастинге и хотим сообщить Вам, что мы готовы пригласить Вас принять участие в следующем этапе Кастинга.<br>Для уточнение времени и места с Вами свяжется наш Администратор, если по каким-то причинам этого не произошло до «20» апреля, просим Вас самостоятельно связаться с нами.<br>Спасибо и удачи Вам в следующем этапе!';

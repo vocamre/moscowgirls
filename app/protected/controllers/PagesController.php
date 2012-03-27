@@ -93,6 +93,8 @@ class PagesController extends Controller
 		if(isset($_POST['Pages']))
 		{
 			$model->attributes=$_POST['Pages'];
+			$model->title=$_POST['Pages']['title'];
+			$model->description=$_POST['Pages']['description'];
 			if($model->save())
 				$this->redirect(array('update','id'=>$model->id));
 		}
