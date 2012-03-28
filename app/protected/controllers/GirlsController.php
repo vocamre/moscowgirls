@@ -80,7 +80,6 @@ class GirlsController extends Controller
 			
 			if(isset($_POST['Girls']['portrait'])){
 					$model->image=CUploadedFile::getInstance($model,'portrait');
-
 					if($model->image){ 
 						$pathPart2='/images/portraits/'.time().'.'.end(explode(".", $model->image->getName()));
 						$path=Yii::getpathOfAlias('webroot').$pathPart2;
@@ -91,7 +90,7 @@ class GirlsController extends Controller
 			
 			if(isset($_POST['Girls']['fulllengthportrait'])){
 					$model->image2=CUploadedFile::getInstance($model,'fulllengthportrait');
-
+			
 					if($model->image2){
 						$path2Part2='/images/portraits/'.time().'_fl.'.end(explode(".", $model->image2->getName()));
 						$path2=Yii::getpathOfAlias('webroot').$path2Part2;
@@ -113,6 +112,7 @@ class GirlsController extends Controller
 						
 			if($model->save())
 			{
+			
 			Yii::import('application.extensions.image.Image');
 			Yii::import('application.extensions.helpers.CArray');
 					 
@@ -156,7 +156,7 @@ class GirlsController extends Controller
 					$email->message = 'Здравствуйте, '.$model->name.'!<br> Ваша анкета успешно добавлена.';
 					$email->send();
 				}
-				
+				Yii::app()->user->setFlash('msg','<center>Спасибо за участие! <br> Ваша анкета успешно добавлена.</center>');
 				$this->redirect(Yii::app()->request->baseUrl);
 			}	
 		}

@@ -40,7 +40,16 @@
 	</ul>
 	<div class="content" style="height:520px;">
 
-	
+	<?php 
+	$msg=Yii::app()->user->getFlash('msg'); 
+	if ($msg) 
+		{
+			$options['options']['title'] = 'Moscow girls';
+			$this->beginWidget('zii.widgets.jui.CJuiDialog', $options);
+				echo $msg;
+			$this->endWidget('zii.widgets.jui.CJuiDialog'); 
+
+		} ?>
 	
 	</div>
 	<div class="soc">
