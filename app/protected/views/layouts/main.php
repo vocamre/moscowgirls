@@ -46,9 +46,11 @@
 	
 	</div>
 	<div class="soc">
-		<center><div class="share42init"></div></center>
-			<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/socialicons/share42.js"></script>
-			<script type="text/javascript">share42('<?php echo Yii::app()->request->baseUrl; ?>/js/socialicons/')</script>
+		<center>
+			<a href="http://www.facebook.com/pages/Moscow-Girls/130692543697023" class="fb" target="_blank"></a>
+			<a href="http://vk.com/moscowgirlsproject" class="vk" target="_blank"></a>
+			<a href="http://www.odnoklassniki.ru/event/752999209" class="od" target="_blank"></a>
+		</center>
 	</div>
 </div>
 <div class="footer">
