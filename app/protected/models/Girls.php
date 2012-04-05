@@ -68,7 +68,7 @@ class Girls extends CActiveRecord
 			array('registration', 'length', 'max'=>100),
 			array('phone', 'length', 'max'=>12),
 			array('email','email'),
-			array('email','unique'),
+			array('email, phone, name','unique'),
 			array('email, education', 'length', 'max'=>30),
 			array('marital', 'length', 'max'=>10),
 			array('image, image2', 'file', 'types'=>'jpg, gif, png', 'maxSize'=>1024 * 1024 * 3),
